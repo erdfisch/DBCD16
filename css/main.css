@@ -1,17 +1,12 @@
 body {
   color: white;
   text-align: center;
-}
-
-.img-background {
-  background: url('/images/bg.jpg') no-repeat;
-  background-size: 175%;
-  background-position: -250px -75px;
-
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0;
+  background-image: url('/images/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 .readability-background {
@@ -21,13 +16,11 @@ body {
   background:         linear-gradient(rgba(100,136,128, .45), rgba(41,63,80, .1));
   width: 100%;
   height: 100%;
-  position: fixed;
-  top: 0;
 }
 
 .page-wrapper {
   position: relative;
-  top: -150px;
+  top: -45px;
 }
 
 .logo img {
@@ -107,6 +100,15 @@ p.cta {
   margin-top: 10px;
 }
 
-countdown span p {
+.countdown span p {
   padding-top: 15px;
+}
+
+@media (max-width: 450px) {
+    .countdown span, p.to-date{
+      font-size: 22pt;
+    }
+    .countdown span.number {
+      margin: 0 5px;
+    }
 }
