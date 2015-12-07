@@ -94,6 +94,7 @@ body {
 p.cta {
   text-transform: uppercase;
   font-weight: 600;
+  font-size: 14pt;
 }
 
 .to-date {
@@ -111,4 +112,29 @@ p.cta {
     .countdown span.number {
       margin: 0 5px;
     }
+}
+
+.captcha2_reload {
+  background: rgba(0, 0, 0, 0.55);
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.newsletter-wrapper {
+  height: 400px;
+  margin-top: 100px;
+}
+
+.newsletter {
+  padding: 30px;
+  background: rgba(17, 27, 32, 0.92) none repeat scroll 0% 0%;
+  height: 100%;
+}
+
+#recaptcha_response_field {
+  width: 155px;
+}
+
+#text2329026, .cr_button {
+  margin-bottom: 30px;
 }
