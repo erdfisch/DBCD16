@@ -23,12 +23,23 @@ body {
   top: -100px;
 }
 
+.date {
+  font-size: 24pt;
+  text-shadow: 1px 1px 1px #000;
+  padding: 5px;
+  font-family: "Source Sans Pro", sans-serif;
+  border: 2px solid rgba(57, 174, 232, 0.8);
+  background-color: rgba(57, 174, 232, 0.5);
+  letter-spacing: 2px;
+  font-size: 17pt;
+}
+
 .logo img {
   width: 280px;
 }
 
 .event-info {
-  margin-top: 35px;
+  margin-top: 75px;
 }
 
 .event-info .category {
@@ -44,6 +55,7 @@ body {
   letter-spacing: 2;
   border-bottom: 4px solid rgba(57, 174, 232, 0.8);
   margin: 0 30% 0 30%;
+  word-wrap: break-word;
 }
 
 .event-info .description {
@@ -56,7 +68,7 @@ body {
 }
 
 .countdown {
-  margin-top: 50px;
+  margin-top: 30px;
   text-shadow: 1px 1px 1px #000;
 }
 
@@ -92,13 +104,8 @@ body {
   text-shadow: 3px 4px 3px #000;
 }
 
-.date {
-  text-shadow: 3px 2px 2px #000;
-}
-
 .newsletter {
   text-shadow: 1px 1px 1px #000;
-
   margin-top: 0px;
 }
 
@@ -132,6 +139,12 @@ p.cta {
     .countdown span.number {
       margin: 0 5px;
     }
+    p.category {
+      font-size: 80% !important;
+    }
+    p.description {
+     font-size: 100% !important;
+    }
 }
 
 .captcha2_reload {
@@ -155,7 +168,7 @@ p.cta {
   width: 155px;
 }
 
-#text2329026, .cr_button {
+#text2329026, .cr_button, #recaptcha_response_field {
   margin-bottom: 30px;
 }
 
