@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f97d04043e75e791ec57dd9b10640ac1",
-    "content-hash": "6fa725dc4c67c2b124bf7edd71d73617",
+    "hash": "46d33c4f118b84c534ebb4fb25b8352c",
+    "content-hash": "26390dbb94b705c1d0440b97bb5f1dad",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -952,34 +952,6 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "time": "2015-12-02 14:08:29"
-        },
-        {
-            "name": "drupal/integrity",
-            "version": "dev-8.x-1.x",
-            "source": {
-                "type": "git",
-                "url": "http://git.drupal.org/project/integrity.git",
-                "reference": "f5e272033fae427b07dcae9fe109fc69ec07c359"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://ftp.drupal.org/files/projects/integrity-8.x-1.2.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "drupal/core": "8.*"
-            },
-            "type": "drupal-theme",
-            "extra": {
-                "branch-alias": {
-                    "dev-8.x-1.x": "8.1.x-dev"
-                }
-            },
-            "notification-url": "https://packagist.drupal-composer.org/downloads/",
-            "description": "A flexible, recolorable theme with many regions and a responsive, mobile-first layout.",
-            "homepage": "https://www.drupal.org/project/integrity",
-            "time": "2015-12-06 19:21:57"
         },
         {
             "name": "drush/drush",
@@ -5173,7 +5145,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/integrity": 20,
         "jcalderonzumba/gastonjs": 20,
         "jcalderonzumba/mink-phantomjs-driver": 20
     },
