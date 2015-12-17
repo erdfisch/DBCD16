@@ -46,5 +46,8 @@
             "web/themes/contrib/{$name}": ["type:drupal-theme"],
             "drush/contrib/{$name}": ["type:drupal-drush"]
         }
+    },
+    "config": {
+        "bin-dir": "bin/"
     }
 }
