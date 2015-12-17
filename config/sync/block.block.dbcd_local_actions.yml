@@ -1,0 +1,18 @@
+uuid: 6315e724-2b19-4c91-9f00-ca83dce919bc
+langcode: en
+status: true
+dependencies:
+  theme:
+    - dbcd
+id: dbcd_local_actions
+theme: dbcd
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,11 @@
+uuid: 5d6cd648-1b6e-498d-b604-042f5ce0b303
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node_save_action
+label: 'Save content'
+type: node
+plugin: node_save_action
+configuration: {  }
