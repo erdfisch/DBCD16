@@ -1,4 +1,4 @@
-uuid: 869420ea-96a3-4653-9f00-ea00ec2b36a3
+uuid: f7a01121-622b-434b-b406-6cf59c278805
 langcode: en
 status: true
 dependencies:
@@ -6,10 +6,10 @@ dependencies:
     - system
   theme:
     - dbcd
-id: dbcd_content
+id: mainpagecontent
 theme: dbcd
 region: content
-weight: 0
+weight: -7
 provider: null
 plugin: system_main_block
 settings:
