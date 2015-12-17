@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "46d33c4f118b84c534ebb4fb25b8352c",
-    "content-hash": "26390dbb94b705c1d0440b97bb5f1dad",
+    "hash": "77f7f979493031955ceaea8d900615c1",
+    "content-hash": "18874edf943c753eb79923f74d472c79",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -703,6 +703,28 @@
                 "parser"
             ],
             "time": "2014-09-09 13:34:57"
+        },
+        {
+            "name": "drupal/config_installer",
+            "version": "dev-8.x-1.x",
+            "source": {
+                "type": "git",
+                "url": "http://git.drupal.org/project/config_installer.git",
+                "reference": "158e8151731683977217b1f2656f2209f26be055"
+            },
+            "require": {
+                "drupal/core": "8.*"
+            },
+            "type": "drupal-profile",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "description": "Use configuration from another Drupal site to install a Drupal instance. Suitable for advanced users.",
+            "homepage": "https://www.drupal.org/project/config_installer",
+            "time": "2015-12-12 17:23:41"
         },
         {
             "name": "drupal/console",
@@ -5145,6 +5167,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "drupal/config_installer": 20,
         "jcalderonzumba/gastonjs": 20,
         "jcalderonzumba/mink-phantomjs-driver": 20
     },
