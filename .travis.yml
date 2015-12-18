@@ -37,3 +37,17 @@ script:
   - ./../vendor/bin/phpunit -c core --exclude-group Composer
   - ./../vendor/bin/drush
   - ./../vendor/bin/console
+
+  # Test site features
+  - cd $TRAVIS_BUILD_DIR/web
+  - ./../vendor/bin/drush site-install config_installer --verbose --yes --db-url=sqlite://tmp/site.sqlite -y --keep-config config_installer_staging_configure_form.sync_directory=../config/sync
+  # Start webserver
+  - nohup ./../vendor/bin/drush runserver --root=$TRAVIS_BUILD_DIR/web --server=builtin :9002 &
+  # Start Selenium
+  - export DISPLAY=:99.0
+  - sh -e /etc/init.d/xvfb start
+  - wget http://selenium.googlecode.com/files/selenium-server-standalone-2.25.0.jar
+  - java -jar selenium-server-standalone-2.25.0.jar -p 4444 &
+  # Run testsuite
+  - cd $TRAVIS_BUILD_DIR
+  - bin/behat
