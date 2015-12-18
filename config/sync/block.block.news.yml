@@ -12,7 +12,7 @@ dependencies:
 id: news
 theme: dbcd
 region: content
-weight: -3
+weight: -2
 provider: null
 plugin: 'views_block:news-block_1'
 settings:

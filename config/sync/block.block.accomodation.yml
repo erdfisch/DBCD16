@@ -1,23 +1,23 @@
-uuid: c8996758-43ee-4342-b329-413bb908e8b9
+uuid: 595d038f-7531-4011-8931-491b9e97d227
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic:0de6d890-a068-4b21-8f02-2a907d784efe'
+    - 'block_content:basic:e10afb00-9bf1-4b85-8621-33dc5a66d848'
   module:
     - block_content
     - system
   theme:
     - dbcd
-id: tickets
+id: accomodation
 theme: dbcd
 region: content
-weight: -1
+weight: -4
 provider: null
-plugin: 'block_content:0de6d890-a068-4b21-8f02-2a907d784efe'
+plugin: 'block_content:e10afb00-9bf1-4b85-8621-33dc5a66d848'
 settings:
-  id: 'block_content:0de6d890-a068-4b21-8f02-2a907d784efe'
-  label: Tickets
+  id: 'block_content:e10afb00-9bf1-4b85-8621-33dc5a66d848'
+  label: Accomodation
   provider: block_content
   label_display: visible
   status: true
