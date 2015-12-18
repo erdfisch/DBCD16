@@ -1,0 +1,49 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/taxonomy\/term\/5?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/sponsor_level"
+        }
+    },
+    "uuid": [
+        {
+            "value": "ba109d0a-c701-48cd-8200-ac12c14c0ee0"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "sponsor_level"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "Gold",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": "2"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1450423850",
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ]
+}

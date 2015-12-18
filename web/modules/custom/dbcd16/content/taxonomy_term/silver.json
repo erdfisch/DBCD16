@@ -1,0 +1,49 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/taxonomy\/term\/6?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/sponsor_level"
+        }
+    },
+    "uuid": [
+        {
+            "value": "6fbe4d8c-c460-4c82-b800-bf24bd5798b7"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "sponsor_level"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "Silver",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": "3"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1450423855",
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ]
+}
