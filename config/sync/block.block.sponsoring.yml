@@ -1,4 +1,4 @@
-uuid: 42a5b5df-5522-4685-a203-3d8768e1ac49
+uuid: abfe0e5b-ba0e-4464-b530-4880af965e67
 langcode: en
 status: true
 dependencies:
@@ -9,14 +9,14 @@ dependencies:
     - views
   theme:
     - dbcd
-id: sponsors
+id: sponsoring
 theme: dbcd
 region: content
-weight: -1
+weight: -2
 provider: null
-plugin: 'views_block:sponsors-block'
+plugin: 'views_block:sponsors-block_1'
 settings:
-  id: 'views_block:sponsors-block'
+  id: 'views_block:sponsors-block_1'
   label: ''
   provider: views
   label_display: visible

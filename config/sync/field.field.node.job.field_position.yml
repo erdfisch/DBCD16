@@ -1,0 +1,21 @@
+uuid: fb8a4f44-ee36-45cb-8300-e60ba7b51442
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_position
+    - node.type.job
+  module:
+    - options
+id: node.job.field_position
+field_name: field_position
+entity_type: node
+bundle: job
+label: Position
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

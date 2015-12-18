@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/admin\/structure\/menu\/item\/3\/edit?_format=hal_json"
+            "href": "http:\/\/dbcd16.dt\/admin\/structure\/menu\/item\/4\/edit?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/menu_link_content\/menu_link_content"
@@ -9,7 +9,7 @@
     },
     "uuid": [
         {
-            "value": "e8b0d772-7061-45fc-9400-a56e698c42bc"
+            "value": "e1aded0b-cd7d-4bfa-9301-0132e2a8f024"
         }
     ],
     "bundle": [
@@ -19,7 +19,7 @@
     ],
     "title": [
         {
-            "value": "Sponsors",
+            "value": "Jobs",
             "lang": "en"
         }
     ],
@@ -30,7 +30,7 @@
     ],
     "link": [
         {
-            "uri": "internal:\/#block-sponsoring",
+            "uri": "internal:\/#block-jobs",
             "title": "",
             "options": []
         }
@@ -47,7 +47,7 @@
     ],
     "weight": [
         {
-            "value": "0"
+            "value": "-46"
         }
     ],
     "expanded": [
@@ -68,7 +68,7 @@
     ],
     "changed": [
         {
-            "value": "1450423463",
+            "value": "1450446199",
             "lang": "en"
         }
     ],

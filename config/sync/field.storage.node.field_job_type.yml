@@ -1,0 +1,36 @@
+uuid: 60ceb6cd-0e75-4b03-b233-51d5b55a81b8
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_job_type
+field_name: field_job_type
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'Full Time'
+      label: 'Full Time'
+    -
+      value: 'Part Time'
+      label: 'Part Time'
+    -
+      value: Internship
+      label: Internship
+    -
+      value: Freelance
+      label: Freelance
+    -
+      value: Telecommute/Remote
+      label: Telecommute/Remote
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

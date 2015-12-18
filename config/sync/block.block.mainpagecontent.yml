@@ -9,7 +9,7 @@ dependencies:
 id: mainpagecontent
 theme: dbcd
 region: content
-weight: -4
+weight: -5
 provider: null
 plugin: system_main_block
 settings:
