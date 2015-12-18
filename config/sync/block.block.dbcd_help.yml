@@ -9,7 +9,7 @@ dependencies:
 id: dbcd_help
 theme: dbcd
 region: content
-weight: -9
+weight: -11
 provider: null
 plugin: help_block
 settings:

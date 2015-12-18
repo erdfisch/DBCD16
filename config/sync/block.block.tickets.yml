@@ -12,7 +12,7 @@ dependencies:
 id: tickets
 theme: dbcd
 region: content
-weight: -2
+weight: -1
 provider: null
 plugin: 'block_content:0de6d890-a068-4b21-8f02-2a907d784efe'
 settings:
