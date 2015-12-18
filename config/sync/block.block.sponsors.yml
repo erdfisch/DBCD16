@@ -9,14 +9,14 @@ dependencies:
     - views
   theme:
     - dbcd
-id: sponsors2
+id: sponsors
 theme: dbcd
 region: content
 weight: -1
 provider: null
-plugin: 'views_block:sponsors-block_2'
+plugin: 'views_block:sponsors-block'
 settings:
-  id: 'views_block:sponsors-block_2'
+  id: 'views_block:sponsors-block'
   label: ''
   provider: views
   label_display: visible
