@@ -1,0 +1,31 @@
+uuid: c8996758-43ee-4342-b329-413bb908e8b9
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:0de6d890-a068-4b21-8f02-2a907d784efe'
+  module:
+    - block_content
+    - system
+  theme:
+    - dbcd
+id: tickets
+theme: dbcd
+region: content
+weight: -2
+provider: null
+plugin: 'block_content:0de6d890-a068-4b21-8f02-2a907d784efe'
+settings:
+  id: 'block_content:0de6d890-a068-4b21-8f02-2a907d784efe'
+  label: Tickets
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

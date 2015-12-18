@@ -12,7 +12,7 @@ dependencies:
 id: jobs
 theme: dbcd
 region: content
-weight: -1
+weight: 0
 provider: null
 plugin: 'views_block:jobs-block_1'
 settings:
