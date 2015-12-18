@@ -1,0 +1,30 @@
+uuid: bf6d06d6-c92b-4602-8a5e-9486fc69c673
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_skill_level
+field_name: field_skill_level
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Intermediate/Proficient
+      label: Intermediate/Proficient
+    -
+      value: Expert/Advanced
+      label: Expert/Advanced
+    -
+      value: Novice/Beginner
+      label: Novice/Beginner
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

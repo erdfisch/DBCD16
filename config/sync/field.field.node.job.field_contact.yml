@@ -1,0 +1,19 @@
+uuid: bd360ce2-3458-4d8e-a500-eab23261c6aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_contact
+    - node.type.job
+id: node.job.field_contact
+field_name: field_contact
+entity_type: node
+bundle: job
+label: Contact
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

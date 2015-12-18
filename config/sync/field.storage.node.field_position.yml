@@ -1,0 +1,48 @@
+uuid: 372fbc7e-6f64-49fc-9e05-5f37425f26c9
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_position
+field_name: field_position
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Back-End
+      label: Back-End
+    -
+      value: Front-End
+      label: Front-End
+    -
+      value: 'Site Builder'
+      label: 'Site Builder'
+    -
+      value: Themer
+      label: Themer
+    -
+      value: DevOps
+      label: DevOps
+    -
+      value: Designer
+      label: Designer
+    -
+      value: 'Project Manager'
+      label: 'Project Manager'
+    -
+      value: Sales
+      label: Sales
+    -
+      value: Other
+      label: Other
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,19 @@
+uuid: dfc7c216-162e-4534-860d-13e245660d80
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pay_scale
+    - node.type.job
+id: node.job.field_pay_scale
+field_name: field_pay_scale
+entity_type: node
+bundle: job
+label: 'Pay Scale'
+description: '30.000€ - 120000€ per year or 45€ - 90€ per hour'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
