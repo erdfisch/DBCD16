@@ -6,7 +6,7 @@
       config_installer_staging_configure_form.sync_directory=../config/sync \
       --db-url=mysql://dbuser:dbpw@localhost:dbport/dbname
 
-    drush en -y dbcd16_default_content
+    drush en -y dbcd16_default_content && drush cr
 
 ## Testing
 
