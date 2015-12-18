@@ -49,7 +49,7 @@
     ],
     "body": [
         {
-            "value": "<link href=\"http:\/\/cdn.leafletjs.com\/leaflet\/v0.7.7\/leaflet.css\" rel=\"stylesheet\" \/><script src=\"http:\/\/cdn.leafletjs.com\/leaflet\/v0.7.7\/leaflet.js\"><\/script>\r\n<style type=\"text\/css\">#map { height: 180px; }\r\n<\/style>\r\n<div id=\"map\">&nbsp;<\/div>\r\n<script>\r\n  var map = L.map('map').setView([49.4160425, 8.6574423,17], 13);\r\n  L.tileLayer('http:\/\/{s}.tile.openstreetmap.org\/{z}\/{x}\/{y}.png', {\r\n    attribution: 'Map data &copy; <a href=\"http:\/\/openstreetmap.org\">OpenStreetMap<\/a> contributors',\r\n    maxZoom: 6,\r\n    maxZoom: 18\r\n  }).addTo(map);\r\n  var marker = L.marker([49.4160425, 8.6574423,17]).addTo(map);\r\n<\/script>\r\n",
+            "value": "<link href=\"http:\/\/cdn.leafletjs.com\/leaflet\/v0.7.7\/leaflet.css\" rel=\"stylesheet\" \/><script src=\"http:\/\/cdn.leafletjs.com\/leaflet\/v0.7.7\/leaflet.js\"><\/script>\r\n<style type=\"text\/css\">#map { height: 180px; }\r\n<\/style>\r\n<div id=\"map\">&nbsp;<\/div>\r\n<script>\r\n  var map = L.map('map').setView([49.41626, 8.65953, 18], 18);\r\n  L.tileLayer('http:\/\/{s}.tile.openstreetmap.org\/{z}\/{x}\/{y}.png', {\r\n    attribution: 'Map data &copy; <a href=\"http:\/\/openstreetmap.org\">OpenStreetMap<\/a> contributors',\r\n    maxZoom: 6,\r\n    maxZoom: 18\r\n  }).addTo(map);\r\n  var marker = L.marker([49.41626, 8.65953, 18]).addTo(map);\r\n<\/script>\r\n",
             "format": "full_html",
             "summary": "",
             "lang": "en"
