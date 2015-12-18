@@ -19,3 +19,6 @@ web/sites/default/services.yml
 # Ignore bin folder
 bin
 
+# Ignore local drushrc
+drushrc.php
+
