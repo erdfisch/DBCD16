@@ -7,7 +7,7 @@ dependencies:
 id: dbcd_page_title
 theme: dbcd
 region: content
-weight: -50
+weight: -7
 provider: null
 plugin: page_title_block
 settings:

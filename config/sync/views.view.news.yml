@@ -156,8 +156,8 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          operator: '!='
-          value: true
+          operator: '='
+          value: false
           group: 1
           exposed: false
           expose:
