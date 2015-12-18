@@ -1,0 +1,49 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/taxonomy\/term\/7?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/sponsor_level"
+        }
+    },
+    "uuid": [
+        {
+            "value": "f1e33d4e-b43c-47e2-a82f-473ff67b6540"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "sponsor_level"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "Bronze",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": "4"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1450423850",
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ]
+}
