@@ -50,8 +50,8 @@ script:
   # Start Selenium
   - export DISPLAY=:99.0
   - sh -e /etc/init.d/xvfb start
-  - wget http://selenium.googlecode.com/files/selenium-server-standalone-2.25.0.jar
-  - java -jar selenium-server-standalone-2.25.0.jar -p 4444 &
+  - wget http://selenium-release.storage.googleapis.com/2.48/selenium-server-standalone-2.48.2.jar
+  - java -jar selenium-server-standalone-2.48.2.jar -p 4444 &
   # Run testsuite
   - cd $TRAVIS_BUILD_DIR
   - bin/behat
