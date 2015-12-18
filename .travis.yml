@@ -25,28 +25,28 @@ install:
 script:
   # Test stable release
   - cd $TRAVIS_BUILD_DIR/web
-  - ./../vendor/bin/drush site-install --verbose --yes --db-url=sqlite://tmp/site.sqlite
+  - ./../bin/drush site-install --verbose --yes --db-url=sqlite://tmp/site.sqlite
   # Skip core/tests/Drupal/Tests/ComposerIntegrationTest.php because web/ has no composer.json
-  - ./../vendor/bin/phpunit -c core --exclude-group Composer
-  - ./../vendor/bin/drush
-  - ./../vendor/bin/console
+  - ./../bin/phpunit -c core --exclude-group Composer
+  - ./../bin/drush
+  - ./../bin/console
 
   # Test dev release
   - cd $TRAVIS_BUILD_DIR
   - composer --verbose require --no-update drupal/core:8.0.x-dev
   - composer --verbose update
   - cd $TRAVIS_BUILD_DIR/web
-  - ./../vendor/bin/drush site-install --verbose --yes --db-url=sqlite://tmp/site.sqlite
+  - ./../bin/drush site-install --verbose --yes --db-url=sqlite://tmp/site.sqlite
   # Skip core/tests/Drupal/Tests/ComposerIntegrationTest.php because web/ has no composer.json
-  - ./../vendor/bin/phpunit -c core --exclude-group Composer
-  - ./../vendor/bin/drush
-  - ./../vendor/bin/console
+  - ./../bin/phpunit -c core --exclude-group Composer
+  - ./../bin/drush
+  - ./../bin/console
 
   # Test site features
   - cd $TRAVIS_BUILD_DIR/web
-  - ./../vendor/bin/drush site-install config_installer --verbose --yes --db-url=sqlite://tmp/site.sqlite -y --keep-config config_installer_staging_configure_form.sync_directory=../config/sync
+  - ./../bin/drush site-install config_installer --verbose --yes --db-url=sqlite://tmp/site.sqlite -y --keep-config config_installer_staging_configure_form.sync_directory=../config/sync
   # Start webserver
-  - nohup ./../vendor/bin/drush runserver --root=$TRAVIS_BUILD_DIR/web --server=builtin :9002 &
+  - nohup ./../bin/drush runserver --root=$TRAVIS_BUILD_DIR/web --server=builtin :9002 &
   # Start Selenium
   - export DISPLAY=:99.0
   - sh -e /etc/init.d/xvfb start
