@@ -23,4 +23,10 @@ content:
     third_party_settings: {  }
   links:
     weight: 100
-hidden: {  }
+hidden:
+  field_contact: true
+  field_job_type: true
+  field_link: true
+  field_pay_scale: true
+  field_position: true
+  field_skill_level: true

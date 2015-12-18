@@ -12,7 +12,7 @@ dependencies:
 id: program
 theme: dbcd
 region: content
-weight: -3
+weight: -4
 provider: null
 plugin: 'views_block:program-block_3'
 settings:
