@@ -1,0 +1,31 @@
+uuid: 595d038f-7531-4011-8931-491b9e97d227
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e10afb00-9bf1-4b85-8621-33dc5a66d848'
+  module:
+    - block_content
+    - system
+  theme:
+    - dbcd
+id: accomodation
+theme: dbcd
+region: content
+weight: -4
+provider: null
+plugin: 'block_content:e10afb00-9bf1-4b85-8621-33dc5a66d848'
+settings:
+  id: 'block_content:e10afb00-9bf1-4b85-8621-33dc5a66d848'
+  label: Accomodation
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

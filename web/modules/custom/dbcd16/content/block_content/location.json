@@ -1,0 +1,58 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/dbcd16.dt\/block\/2?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/block_content\/basic"
+        }
+    },
+    "uuid": [
+        {
+            "value": "b1f72ed8-19b2-4da6-af00-cee81bdbcbf7"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "info": [
+        {
+            "value": "Location",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "basic"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1450449417",
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<link href=\"http:\/\/cdn.leafletjs.com\/leaflet\/v0.7.7\/leaflet.css\" rel=\"stylesheet\" \/><script src=\"http:\/\/cdn.leafletjs.com\/leaflet\/v0.7.7\/leaflet.js\"><\/script>\r\n<style type=\"text\/css\">#map { height: 180px; }\r\n<\/style>\r\n<div id=\"map\">&nbsp;<\/div>\r\n<script>\r\n  var map = L.map('map').setView([49.4160425, 8.6574423,17], 13);\r\n  L.tileLayer('http:\/\/{s}.tile.openstreetmap.org\/{z}\/{x}\/{y}.png', {\r\n    attribution: 'Map data &copy; <a href=\"http:\/\/openstreetmap.org\">OpenStreetMap<\/a> contributors',\r\n    maxZoom: 6,\r\n    maxZoom: 18\r\n  }).addTo(map);\r\n  var marker = L.marker([49.4160425, 8.6574423,17]).addTo(map);\r\n<\/script>\r\n",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}
