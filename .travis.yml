@@ -9,7 +9,7 @@ sudo: false
 env:
   - SIMPLETEST_DB=sqlite://tmp/site.sqlite
   - WD_HOST=http://127.0.0.1:4444/wd/hub
-  - BASE_URL=http://127.0.0.1/
+  - BASE_URL=http://127.0.0.1:9002/
   - DRUPAL_ROOT=`pwd`/web
   - BEHAT_PARAMS='{"extensions": {"Behat\\MinkExtension": {"selenium2": {"wd_host": "'${WD_HOST}'"}, "base_url": "'${BASE_URL}'"}, "Drupal\\DrupalExtension": {"drupal": {"drupal_root": "'${DRUPAL_ROOT}'"} } } }'
 
