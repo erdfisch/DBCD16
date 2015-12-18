@@ -320,9 +320,9 @@ display:
         - 'config:field.storage.node.field_link'
         - 'config:field.storage.node.field_logo'
         - 'config:field.storage.node.field_sponsor_level'
-  block_2:
+  block:
     display_plugin: block
-    id: block_2
+    id: block
     display_title: Sponsors
     position: 2
     display_options:
