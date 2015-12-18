@@ -1,0 +1,7 @@
+name: 'DBCD16'
+type: module
+description: 'DBCD16 defaults'
+package: DBCD16
+core: 8.x
+dependencies:
+  - default_content

@@ -1,0 +1,49 @@
+{
+  "_links": {
+    "self": {
+      "href": "http:\/\/default\/taxonomy\/term\/1?_format=hal_json"
+    },
+    "type": {
+      "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tracks"
+    }
+  },
+  "uuid": [
+    {
+      "value": "fcdd032b-f404-404e-9b00-c1b03628d173"
+    }
+  ],
+  "vid": [
+    {
+      "target_id": "tracks"
+    }
+  ],
+  "langcode": [
+    {
+      "value": "en",
+      "lang": "en"
+    }
+  ],
+  "name": [
+    {
+      "value": "Business track",
+      "lang": "en"
+    }
+  ],
+  "weight": [
+    {
+      "value": "0"
+    }
+  ],
+  "changed": [
+    {
+      "value": "1450371842",
+      "lang": "en"
+    }
+  ],
+  "default_langcode": [
+    {
+      "value": "1",
+      "lang": "en"
+    }
+  ]
+}

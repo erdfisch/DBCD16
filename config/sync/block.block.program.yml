@@ -1,0 +1,24 @@
+uuid: d3c9236f-e9f0-4544-8a00-b52b1eb9566b
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.program
+  module:
+    - views
+  theme:
+    - dbcd
+id: program
+theme: dbcd
+region: content
+weight: -3
+provider: null
+plugin: 'views_block:program-block_3'
+settings:
+  id: 'views_block:program-block_3'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

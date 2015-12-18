@@ -6,15 +6,17 @@ Feature: Program
 
   Scenario: Display list of events
     Given "event" content:
-    | title       | promote | body                         |
-    | Event one   |       1 | Lorem ipsum dolor site amet. |
-    | Event two   |       1 | Lorem ipsum dolor site amet. |
-    | Event three |       1 | Lorem ipsum dolor site amet. |
-    | Event four  |       1 | Lorem ipsum dolor site amet. |
-    | Event five  |       1 | Lorem ipsum dolor site amet. |
+    | title       | promote | body                         | field_track      |
+    | Event one   |       0 | Lorem ipsum dolor site amet. | Business track   |
+    | Event two   |       0 | Lorem ipsum dolor site amet. | Business track   |
+    | Event three |       0 | Lorem ipsum dolor site amet. | Business track   |
+    | Event four  |       0 | Lorem ipsum dolor site amet. | Community sprint |
+    | Event five  |       0 | Lorem ipsum dolor site amet. | Community sprint |
+    | Event six   |       0 | Lorem ipsum dolor site amet. | Community sprint |
     When I am on the homepage
     Then I should see "Event one"
     And I should see "Event two"
     And I should see "Event three"
     And I should see "Event four"
     And I should see "Event five"
+    And I should see "Event six"
