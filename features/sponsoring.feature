@@ -6,19 +6,19 @@ Feature: Sponsoring
 
   Scenario: Display sponsoring information
     When I am on the homepage
-    Then I should see "Sponsoring"
+    Then I should see "Sponsors"
 
   Scenario: Display sponsors
     Given "sponsor" content:
-      | title            | promote | body                         |
-      | Sponsor one      |       1 | Lorem ipsum dolor site amet. |
-      | Sponsor two      |       1 | Lorem ipsum dolor site amet. |
-      | Sponsor three    |       1 | Lorem ipsum dolor site amet. |
-      | Sponsor four     |       1 | Lorem ipsum dolor site amet. |
-      | Sponsor five     |       1 | Lorem ipsum dolor site amet. |
+      | title            | field_sponsor_level |
+      | Sponsor one      | Platinum            |
+      | Sponsor two      | Gold                |
+      | Sponsor three    | Silver              |
+      | Sponsor four     | Bronze              |
+      | Sponsor five     | Raspberry           |
     When I am on the homepage
-    Then I should see "Sponsor one"
-    And I should see "Sponsor two"
-    And I should see "Sponsor three"
-    And I should see "Sponsor four"
-    And I should see "Sponsor five"
+    Then I should see the text "Platinum"
+    Then I should see the text "Gold"
+    Then I should see the text "Silver"
+    Then I should see the text "Bronze"
+    Then I should see the text "Raspberry"
