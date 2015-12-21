@@ -1,0 +1,7 @@
+name: Twitter Block
+type: module
+description: 'Provides configurable blocks for a Twitter feed.'
+package: Core
+core: 8.x
+dependencies:
+  - block
