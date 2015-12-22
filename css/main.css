@@ -201,10 +201,26 @@ p.cta {
   font-size: 80%;
 }
 
-.back-button  a{
+.back-button  a {
   color: white;
   position: fixed;
   top: 0;
   left: 0;
   margin: 15px 0 0 15px;
+}
+
+.get-ticket {
+  margin-top: 20px;
+  box-shadow: 2 2 2 2 #ffffff;
+}
+
+.get-ticket a {
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  background: rgba(158, 35, 35, 0.8);
+  color: #ffffff;
+  padding: 10px;
+  box-shadow: 7px 2px 20px rgba(177, 79, 79, 0.7);
 }
