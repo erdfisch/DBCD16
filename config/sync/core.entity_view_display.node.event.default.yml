@@ -19,24 +19,24 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 101
+    weight: 2
     settings: {  }
     third_party_settings: {  }
   field_date:
-    weight: 103
-    label: above
+    weight: 1
+    label: hidden
     settings:
       format_type: medium
       timezone_override: ''
     third_party_settings: {  }
     type: datetime_default
   field_track:
-    weight: 102
-    label: above
+    weight: 0
+    label: hidden
     settings:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
-  links:
-    weight: 100
-hidden: {  }
+hidden:
+  langcode: true
+  links: true

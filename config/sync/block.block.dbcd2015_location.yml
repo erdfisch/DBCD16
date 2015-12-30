@@ -1,0 +1,31 @@
+uuid: ba39ff1d-2ef2-4bc1-9711-17b6b8a8ef33
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:b1f72ed8-19b2-4da6-af00-cee81bdbcbf7'
+  module:
+    - block_content
+    - system
+  theme:
+    - dbcd2015
+id: dbcd2015_location
+theme: dbcd2015
+region: '-1'
+weight: -5
+provider: null
+plugin: 'block_content:b1f72ed8-19b2-4da6-af00-cee81bdbcbf7'
+settings:
+  id: 'block_content:b1f72ed8-19b2-4da6-af00-cee81bdbcbf7'
+  label: Location
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

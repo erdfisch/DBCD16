@@ -5,28 +5,43 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.job.body
+    - field.field.node.job.field_contact
+    - field.field.node.job.field_job_type
+    - field.field.node.job.field_link
+    - field.field.node.job.field_pay_scale
+    - field.field.node.job.field_position
+    - field.field.node.job.field_skill_level
     - node.type.job
   module:
-    - text
+    - options
     - user
 id: node.job.teaser
 targetEntityType: node
 bundle: job
 mode: teaser
 content:
-  body:
-    label: hidden
-    type: text_summary_or_trimmed
-    weight: 101
-    settings:
-      trim_length: 600
+  field_job_type:
+    type: list_key
+    weight: 0
+    label: above
+    settings: {  }
     third_party_settings: {  }
-  links:
-    weight: 100
+  field_position:
+    type: list_key
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+  field_skill_level:
+    type: list_key
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
 hidden:
+  body: true
   field_contact: true
-  field_job_type: true
   field_link: true
   field_pay_scale: true
-  field_position: true
-  field_skill_level: true
+  langcode: true
+  links: true

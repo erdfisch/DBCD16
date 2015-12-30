@@ -1,0 +1,25 @@
+uuid: 8dde4543-7f07-4879-9400-dd57a9c7ca4c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:d2aca4b2-fa55-4430-8206-6bdf90d831de'
+  module:
+    - block_content
+  theme:
+    - dbcd_2015
+id: feature
+theme: dbcd_2015
+region: header
+weight: -3
+provider: null
+plugin: 'block_content:d2aca4b2-fa55-4430-8206-6bdf90d831de'
+settings:
+  id: 'block_content:d2aca4b2-fa55-4430-8206-6bdf90d831de'
+  label: Feature
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

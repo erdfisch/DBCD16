@@ -1,0 +1,25 @@
+uuid: fb057d00-37f4-4183-8800-a53ac0b18016
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.user.field_user_demo
+    - paragraphs.paragraphs_type.user
+id: paragraph.user.default
+targetEntityType: paragraph
+bundle: user
+mode: default
+content:
+  field_user_demo:
+    weight: 0
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+  translation:
+    weight: 10
+hidden:
+  created: true
+  uid: true

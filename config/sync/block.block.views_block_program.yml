@@ -1,0 +1,30 @@
+uuid: 0c614c46-1920-4505-a100-c12ef8a8d4b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.program
+  module:
+    - system
+    - views
+  theme:
+    - dbcd_2015
+id: views_block_program
+theme: dbcd_2015
+region: content
+weight: -8
+provider: null
+plugin: 'views_block:program-block_3'
+settings:
+  id: 'views_block:program-block_3'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: '40'
+visibility:
+  request_path:
+    id: request_path
+    pages: /program
+    negate: false
+    context_mapping: {  }

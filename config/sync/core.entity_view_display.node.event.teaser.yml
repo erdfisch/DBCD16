@@ -5,6 +5,8 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.event.body
+    - field.field.node.event.field_date
+    - field.field.node.event.field_track
     - node.type.event
   module:
     - text
@@ -26,3 +28,4 @@ content:
 hidden:
   field_date: true
   field_track: true
+  langcode: true

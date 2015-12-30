@@ -24,23 +24,23 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 101
+    weight: 6
     settings: {  }
     third_party_settings: {  }
   field_contact:
-    weight: 106
+    weight: 4
     label: above
     settings: {  }
     third_party_settings: {  }
     type: basic_string
   field_job_type:
-    weight: 104
+    weight: 2
     label: above
     settings: {  }
     third_party_settings: {  }
     type: list_default
   field_link:
-    weight: 107
+    weight: 5
     label: above
     settings:
       trim_length: 80
@@ -51,24 +51,24 @@ content:
     third_party_settings: {  }
     type: link
   field_pay_scale:
-    weight: 105
+    weight: 3
     label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
     type: string
   field_position:
-    weight: 103
+    weight: 1
     label: above
     settings: {  }
     third_party_settings: {  }
     type: list_default
   field_skill_level:
-    weight: 102
+    weight: 0
     label: above
     settings: {  }
     third_party_settings: {  }
     type: list_default
-  links:
-    weight: 100
-hidden: {  }
+hidden:
+  langcode: true
+  links: true

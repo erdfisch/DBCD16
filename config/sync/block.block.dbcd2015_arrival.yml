@@ -1,0 +1,31 @@
+uuid: b204e340-8d41-468e-8400-0c6ca23728e7
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:db045c22-bf24-4838-ad04-4f16646117d4'
+  module:
+    - block_content
+    - system
+  theme:
+    - dbcd2015
+id: dbcd2015_arrival
+theme: dbcd2015
+region: '-1'
+weight: -10
+provider: null
+plugin: 'block_content:db045c22-bf24-4838-ad04-4f16646117d4'
+settings:
+  id: 'block_content:db045c22-bf24-4838-ad04-4f16646117d4'
+  label: Arrival
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

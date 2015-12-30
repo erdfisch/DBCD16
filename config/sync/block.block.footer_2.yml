@@ -1,0 +1,25 @@
+uuid: ef33ef68-2fa1-43e9-b008-08c4ba25eb91
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4f3c0614-89d2-4d6d-b355-853285aef51c'
+  module:
+    - block_content
+  theme:
+    - dbcd_2015
+id: footer_2
+theme: dbcd_2015
+region: footer
+weight: -8
+provider: null
+plugin: 'block_content:4f3c0614-89d2-4d6d-b355-853285aef51c'
+settings:
+  id: 'block_content:4f3c0614-89d2-4d6d-b355-853285aef51c'
+  label: Footer
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

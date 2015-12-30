@@ -1,0 +1,20 @@
+uuid: 8a144224-097e-4f47-9a31-49fc66bba874
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dbcd_2015
+id: dbcd_2015_content
+theme: dbcd_2015
+region: content
+weight: -7
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

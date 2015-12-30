@@ -21,3 +21,4 @@ hidden:
   field_link: true
   field_logo: true
   field_sponsor_level: true
+  langcode: true

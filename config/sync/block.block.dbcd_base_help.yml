@@ -1,0 +1,20 @@
+uuid: 502aec0b-7201-4ca9-8500-d80fa0e1c5c7
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - dbcd_base
+id: dbcd_base_help
+theme: dbcd_base
+region: header
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

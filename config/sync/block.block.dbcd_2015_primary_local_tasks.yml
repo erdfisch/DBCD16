@@ -1,0 +1,20 @@
+uuid: 3a4265d8-f99b-4bae-ac32-50ca4e31a194
+langcode: en
+status: false
+dependencies:
+  theme:
+    - dbcd_2015
+id: dbcd_2015_primary_local_tasks
+theme: dbcd_2015
+region: '-1'
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: false
+visibility: {  }

@@ -24,7 +24,8 @@
         "drupal/drupal-extension": "~3.0",
         "guzzlehttp/guzzle" : "^6.0@dev",
         "drupal/config_installer": "8.1.x-dev",
-        "drupal/default_content": "8.1.0-alpha2"
+        "drupal/default_content": "8.1.0-alpha2",
+        "drupal/paragraphs": "dev-8.x-1.x"
     },
     "require-dev": {
         "behat/mink": "~1.6",

@@ -1,0 +1,23 @@
+uuid: f7d4886a-6762-454c-852e-4637f2c8a54e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dbcd2015
+id: dbcd2015_branding
+theme: dbcd2015
+region: header
+weight: -11
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: visible
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

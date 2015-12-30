@@ -1,0 +1,30 @@
+uuid: ee8546ea-9f8c-49c3-8629-4199e27bfd0a
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.news
+  module:
+    - system
+    - views
+  theme:
+    - dbcd_2015
+id: views_block__news
+theme: dbcd_2015
+region: content
+weight: -6
+provider: null
+plugin: 'views_block:news-block_1'
+settings:
+  id: 'views_block:news-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: '40'
+visibility:
+  request_path:
+    id: request_path
+    pages: /news
+    negate: false
+    context_mapping: {  }

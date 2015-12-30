@@ -1,0 +1,30 @@
+uuid: e0f9b068-af3f-46cc-b805-5d01e24745b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.sponsors
+  module:
+    - system
+    - views
+  theme:
+    - dbcd_2015
+id: views_block__sponsors_block_1
+theme: dbcd_2015
+region: content
+weight: -3
+provider: null
+plugin: 'views_block:sponsors-block_1'
+settings:
+  id: 'views_block:sponsors-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /sponsors
+    negate: true
+    context_mapping: {  }

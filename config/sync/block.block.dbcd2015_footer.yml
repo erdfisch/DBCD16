@@ -1,0 +1,24 @@
+uuid: c83c01d8-d33a-4dcd-9d00-deec80a84edd
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - dbcd2015
+id: dbcd2015_footer
+theme: dbcd2015
+region: '-1'
+weight: -8
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Footer menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

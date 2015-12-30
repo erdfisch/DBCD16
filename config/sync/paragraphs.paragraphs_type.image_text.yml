@@ -1,0 +1,6 @@
+uuid: 23e51e7d-bb1c-4e5d-850d-1333ae122d8e
+langcode: en
+status: true
+dependencies: {  }
+id: image_text
+label: 'Image + Text'

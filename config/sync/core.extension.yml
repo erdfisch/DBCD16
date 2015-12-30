@@ -8,11 +8,14 @@ module:
   comment: 0
   config: 0
   contact: 0
+  content_translation: 0
   contextual: 0
   datetime: 0
+  dbcd16_default_content: 0
   dblog: 0
-  dynamic_page_cache: 0
+  default_content: 0
   editor: 0
+  entity_reference_revisions: 0
   field: 0
   field_ui: 0
   file: 0
@@ -21,11 +24,12 @@ module:
   help: 0
   history: 0
   image: 0
+  language: 0
   link: 0
   menu_ui: 0
   node: 0
   options: 0
-  page_cache: 0
+  paragraphs: 0
   path: 0
   quickedit: 0
   rdf: 0
@@ -48,6 +52,7 @@ module:
 theme:
   stable: 0
   classy: 0
-  bartik: 0
   seven: 0
-  dbcd: 0
+  dbcd2015: 0
+  dbcd_base: 0
+  dbcd_2015: 0

@@ -27,22 +27,14 @@ content:
     label: hidden
   field_image:
     type: image
-    weight: -1
+    weight: -10
     settings:
-      image_style: medium
+      image_style: ''
       image_link: content
     third_party_settings: {  }
     label: hidden
-  field_tags:
-    type: entity_reference_label
-    weight: 10
-    settings:
-      link: true
-    third_party_settings: {  }
-    label: above
-  links:
-    weight: 100
 hidden:
   comment: true
-  field_image: true
   field_tags: true
+  langcode: true
+  links: true

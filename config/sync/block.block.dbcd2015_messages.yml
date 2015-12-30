@@ -1,0 +1,20 @@
+uuid: d32a8402-dfea-4f34-ae00-ba600e093bc6
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - dbcd2015
+id: dbcd2015_messages
+theme: dbcd2015
+region: '-1'
+weight: 4
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

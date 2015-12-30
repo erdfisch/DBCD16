@@ -1,0 +1,20 @@
+uuid: 5fec8d90-353e-4915-bc07-7f562b1e9ec1
+langcode: en
+status: false
+dependencies:
+  module:
+    - user
+  theme:
+    - dbcd_2015
+id: dbcd_2015_login
+theme: dbcd_2015
+region: '-1'
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  provider: user
+  label_display: visible
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: 7d223036-accc-4587-a002-2bf4efab66d2
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - dbcd_base
+id: dbcd_base_login
+theme: dbcd_base
+region: content
+weight: 10
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  provider: user
+  label_display: visible
+visibility: {  }

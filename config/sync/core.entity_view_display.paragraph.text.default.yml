@@ -1,0 +1,23 @@
+uuid: 22ba6c39-65b6-4c4e-a605-5fad4d245d44
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.text.field_text_demo
+    - paragraphs.paragraphs_type.text
+  module:
+    - text
+id: paragraph.text.default
+targetEntityType: paragraph
+bundle: text
+mode: default
+content:
+  field_text_demo:
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    label: hidden
+hidden:
+  created: true
+  uid: true

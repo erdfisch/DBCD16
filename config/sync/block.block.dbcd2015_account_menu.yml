@@ -1,0 +1,24 @@
+uuid: 259d2284-2df9-4f3b-981d-29657243030f
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - dbcd2015
+id: dbcd2015_account_menu
+theme: dbcd2015
+region: '-1'
+weight: 9
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility: {  }

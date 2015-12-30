@@ -1,0 +1,18 @@
+uuid: 83e5df10-062a-450f-b343-677c8ea1b950
+langcode: en
+status: false
+dependencies:
+  theme:
+    - dbcd2015
+id: dbcd2015_page_title
+theme: dbcd2015
+region: '-1'
+weight: -2
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

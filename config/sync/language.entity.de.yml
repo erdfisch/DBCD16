@@ -1,0 +1,9 @@
+uuid: e5440a3e-a3c2-447a-8e00-fd13b13ff5c3
+langcode: en
+status: true
+dependencies: {  }
+id: de
+label: German
+direction: ltr
+weight: 1
+locked: false
