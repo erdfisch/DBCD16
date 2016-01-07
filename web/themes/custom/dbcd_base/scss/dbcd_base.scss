@@ -1,0 +1,61 @@
+/* @file
+ * This file is a custom file that loads all files. Each non-base layer
+ * can be disabled.
+ */
+
+// Make sure the charset is set appropriately.
+@charset "UTF-8";
+
+// Import normalize.css.
+@import "../bower_components/skeleton/css/normalize.css";
+
+// Import skeleton.
+@import "../bower_components/skeleton/css/skeleton.css";
+
+// Import skeleton SCSS (temporary).
+@import "base/skeleton";
+
+// Import elements styling.
+@import "base/elements";
+
+// Import layout.
+@import "base/layout";
+
+// Import fonts styling.
+@import "base/fonts";
+
+// Import Toolbar layout fix.
+@import "components/toolbar";
+
+// Import header styling.
+@import "components/header";
+
+// Import branding styling.
+@import "components/branding";
+
+// Import navigation styling.
+@import "components/navigation";
+
+// Import feature styling.
+@import "components/feature";
+
+// Import sponsors styling.
+@import "components/sponsors";
+
+// Import footer styling.
+@import "components/footer";
+
+// Import home styling.
+@import "pages/home";
+
+// Import program styling.
+@import "pages/program";
+
+// Import news styling.
+@import "pages/news";
+
+// Import location styling.
+@import "pages/location";
+
+// Import jobs styling.
+@import "pages/jobs";

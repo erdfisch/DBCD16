@@ -1,0 +1,82 @@
+.region-header {
+  background: #ffffff url(../images/silhouette.gif) repeat-x 50% 100%;
+  padding-bottom: 50px;
+
+  .header__inner {
+    @extend .container;
+  }
+
+  .block-system-branding-block {
+    width: auto;
+    margin: 0 auto;
+    height: 160px;
+  }
+
+  .navigation.menu--main {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  .block-block-content {
+
+  }
+
+  /* Larger than mobile */
+  @media (min-width: 400px) {
+  }
+
+  /* Larger than phablet (also point when grid becomes active) */
+  @media (min-width: 550px) {
+
+  }
+
+  /* Larger than tablet */
+  @media (min-width: 750px) {
+
+  }
+
+  /* Larger than desktop */
+  @media (min-width: 1000px) {
+
+    & {
+      position: fixed;
+      z-index: 60;
+      width: 100%;
+      top: 0;
+      left: 0;
+      height: 250px;
+    }
+
+    .block-system-branding-block {
+      width: 25%;
+      float: left;
+    }
+
+    .block-block-content {
+      width: 75%;
+      float: left;
+    }
+
+  }
+
+  /* Larger than Desktop HD */
+  @media (min-width: 1200px) {
+
+  }
+
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+
+  .toolbar-vertical .region-header {
+    top: 40px;
+  }
+
+  .toolbar-horizontal .region-header {
+    top: 40px;
+  }
+
+}

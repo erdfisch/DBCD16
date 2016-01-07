@@ -1,0 +1,28 @@
+.layout-container {
+  //background: #e5e5e5;
+}
+
+main {
+  padding-top: 2rem;
+}
+
+.layout-content {
+  clear: both;
+  @extend .container;
+}
+
+@media (min-width: 400px) {
+
+  main {
+    padding-top: 5rem;
+  }
+
+}
+
+@media (min-width: 1000px) {
+
+  .layout-container {
+    padding-top: 325px;
+  }
+
+}

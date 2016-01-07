@@ -1,0 +1,58 @@
+.path-frontpage {
+
+  h1.page-title {
+    visibility: hidden;
+    height: 0;
+  }
+
+  .node__content {
+
+    h3 {
+      clear: both;
+      padding-top: 2rem;
+    }
+
+    .paragraph--type--image-text {
+      clear: both;
+
+      .field--type-image {
+        display: none;
+      }
+
+      .field--type-text-long {
+        width: 100%;
+      }
+
+    }
+
+  }
+
+  @media (min-width: 550px) {
+
+    .node__content {
+
+      h3 {
+        padding-top: 4rem;
+      }
+
+      .paragraph--type--image-text {
+        clear: both;
+
+        .field--type-image {
+          width: 25%;
+          float: left;
+          display: block;
+        }
+
+        .field--type-text-long {
+          width: 75%;
+          float: left;
+        }
+
+      }
+
+    }
+
+  }
+
+}

@@ -1,0 +1,58 @@
+.block-views .view-sponsors {
+  clear: both;
+  padding-top: 10rem;
+
+  .view-content {
+    text-align: center;
+  }
+
+  .view-content div {
+    display: inline-block;
+    width: auto;
+  }
+
+  h3 {
+    @extend h4;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+
+  .views-row {
+    width: auto;
+  }
+
+
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    a {
+      display: inline-block;
+    }
+
+    a.sponsor-platinum {
+      width: 50%;
+    }
+
+    a.sponsor-gold {
+      width: 33%;
+    }
+
+    a.sponsor-silver {
+      width: 25%;
+    }
+
+    a.sponsor-bronze {
+      width: 20%;
+    }
+
+    a.sponsor-rasberry {
+      width: 12.5%;
+    }
+
+
+
+}

@@ -1,0 +1,39 @@
+.region-footer {
+  margin-top: 10rem;
+  padding: 10rem 0 5rem;
+  background: #5f656c;
+  color: darken(#c5c5c5, 1);
+  text-align: center;
+
+  a {
+    color: lighten(#e5e5e5, 1);
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #ffffff;
+  }
+
+  ul {
+    width: 50%;
+    float: left;
+    list-style-type: none;
+  }
+
+  ul:last-of-type {
+    width: 100%;
+  }
+
+  @media (min-width: 750px) {
+
+    ul {
+      width: 25%;
+    }
+
+    ul:last-of-type {
+      width: 50%;
+    }
+
+  }
+
+}

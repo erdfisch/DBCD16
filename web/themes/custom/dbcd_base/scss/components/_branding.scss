@@ -1,0 +1,41 @@
+.block-system-branding-block {
+
+  .site-logo {
+    display: block;
+    width: 150px;
+
+    img {
+      width: 150px;
+      height: auto;
+      margin-left: -10px;
+    }
+
+  }
+
+  /* Larger than mobile */
+  @media (min-width: 400px) {}
+
+  /* Larger than phablet (also point when grid becomes active) */
+  @media (min-width: 550px) {}
+
+  /* Larger than tablet */
+  @media (min-width: 750px) {}
+
+  /* Larger than desktop */
+  @media (min-width: 1000px) {
+
+    .site-logo {
+      width: 200px;
+
+      img {
+        width: 200px;
+      }
+
+    }
+
+  }
+
+  /* Larger than Desktop HD */
+  @media (min-width: 1200px) {}
+
+}
