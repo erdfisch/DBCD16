@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0384d6ad1a3466f401d96a0f04d6b7a9",
-    "content-hash": "a52b1445f171aaf43910f6b5056e6d91",
+    "hash": "0495b8cfb5fc99d89c695eaa3db95de8",
+    "content-hash": "924c212d3409048b32f89c20e98156fd",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1178,7 +1178,7 @@
             "source": {
                 "type": "git",
                 "url": "http://git.drupal.org/project/config_installer.git",
-                "reference": "158e8151731683977217b1f2656f2209f26be055"
+                "reference": "5e23c37c3c723ace5d5bae3b0c0051172e4f3994"
             },
             "require": {
                 "drupal/core": "8.*"
@@ -1192,7 +1192,7 @@
             "notification-url": "https://packagist.drupal-composer.org/downloads/",
             "description": "Use configuration from another Drupal site to install a Drupal instance. Suitable for advanced users.",
             "homepage": "https://www.drupal.org/project/config_installer",
-            "time": "2015-12-12 17:23:41"
+            "time": "2015-12-23 12:31:59"
         },
         {
             "name": "drupal/console",
