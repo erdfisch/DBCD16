@@ -1,14 +1,14 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/node\/11?_format=hal_json"
+            "href": "http:\/\/default\/node\/18?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/node\/sponsor"
         },
         "http:\/\/drupal.org\/rest\/relation\/node\/sponsor\/uid": [
             {
-                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "href": "http:\/\/default\/user\/0?_format=hal_json",
                 "lang": "en"
             }
         ],
@@ -17,9 +17,14 @@
                 "href": "http:\/\/default\/user\/0?_format=hal_json"
             }
         ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/sponsor\/field_logo": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/logo\/2015-12\/351px-Nvidia_logo_svg.png"
+            }
+        ],
         "http:\/\/drupal.org\/rest\/relation\/node\/sponsor\/field_sponsor_level": [
             {
-                "href": "http:\/\/default\/taxonomy\/term\/6?_format=hal_json"
+                "href": "http:\/\/default\/taxonomy\/term\/8?_format=hal_json"
             }
         ]
     },
@@ -41,7 +46,7 @@
     ],
     "title": [
         {
-            "value": "GreatCompany",
+            "value": "nVidia",
             "lang": "en"
         }
     ],
@@ -50,7 +55,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                        "href": "http:\/\/default\/user\/0?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -58,7 +63,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "177bfb53-6c04-4bb7-9700-f525fff33788"
+                        "value": "88298f85-cc1c-4930-8247-71e128f57c42"
                     }
                 ],
                 "lang": "en"
@@ -76,7 +81,29 @@
                 },
                 "uuid": [
                     {
-                        "value": "f48b38ac-dab4-418d-8800-ff9590822e3d"
+                        "value": "88298f85-cc1c-4930-8247-71e128f57c42"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/sponsor\/field_logo": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/logo\/2015-12\/351px-Nvidia_logo_svg.png"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "8b5a0460-1fc1-422b-8600-fc9b48818422"
+                    }
+                ],
+                "uri": [
+                    {
+                        "value": "http:\/\/default\/sites\/default\/files\/logo\/2015-12\/351px-Nvidia_logo_svg.png"
                     }
                 ]
             }
@@ -85,7 +112,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/taxonomy\/term\/6?_format=hal_json"
+                        "href": "http:\/\/default\/taxonomy\/term\/8?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/sponsor_level"
@@ -93,7 +120,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "6fbe4d8c-c460-4c82-b800-bf24bd5798b7"
+                        "value": "a59a9f83-d793-40c3-a501-1d49c25d7003"
                     }
                 ]
             }
@@ -113,7 +140,7 @@
     ],
     "changed": [
         {
-            "value": "1450697345",
+            "value": "1451419372",
             "lang": "en"
         }
     ],
@@ -149,7 +176,7 @@
     "field_link": [
         {
             "uri": "http:\/\/example.org",
-            "title": "GreatCompany",
+            "title": "nVidia",
             "options": []
         }
     ]

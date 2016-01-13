@@ -1,20 +1,26 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/node\/14?_format=hal_json"
+            "href": "http:\/\/default\/node\/3?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
         },
         "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
             {
-                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "href": "http:\/\/default\/user\/0?_format=hal_json",
                 "lang": "en"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
             {
                 "href": "http:\/\/default\/user\/0?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2015-12\/news-3.PNG",
+                "lang": "en"
             }
         ]
     },
@@ -45,7 +51,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                        "href": "http:\/\/default\/user\/0?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -53,7 +59,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "177bfb53-6c04-4bb7-9700-f525fff33788"
+                        "value": "88298f85-cc1c-4930-8247-71e128f57c42"
                     }
                 ],
                 "lang": "en"
@@ -71,9 +77,32 @@
                 },
                 "uuid": [
                     {
-                        "value": "f48b38ac-dab4-418d-8800-ff9590822e3d"
+                        "value": "88298f85-cc1c-4930-8247-71e128f57c42"
                     }
                 ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2015-12\/news-3.PNG"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "19df3303-af13-4a99-8900-b846f76d6ecb"
+                    }
+                ],
+                "uri": [
+                    {
+                        "value": "http:\/\/default\/sites\/default\/files\/2015-12\/news-3.PNG"
+                    }
+                ],
+                "lang": "en"
             }
         ]
     },
@@ -91,7 +120,7 @@
     ],
     "changed": [
         {
-            "value": "1450697067",
+            "value": "1451473643",
             "lang": "en"
         }
     ],
@@ -136,7 +165,7 @@
         {
             "status": "2",
             "cid": "0",
-            "last_comment_timestamp": "1450453999",
+            "last_comment_timestamp": "1450697067",
             "last_comment_name": null,
             "last_comment_uid": "0",
             "comment_count": "0",

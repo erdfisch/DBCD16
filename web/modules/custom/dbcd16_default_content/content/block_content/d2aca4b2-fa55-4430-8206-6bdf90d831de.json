@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/block\/3?_format=hal_json"
+            "href": "http:\/\/default\/block\/5?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/block_content\/basic"
@@ -9,7 +9,7 @@
     },
     "uuid": [
         {
-            "value": "e10afb00-9bf1-4b85-8621-33dc5a66d848"
+            "value": "d2aca4b2-fa55-4430-8206-6bdf90d831de"
         }
     ],
     "langcode": [
@@ -20,7 +20,7 @@
     ],
     "info": [
         {
-            "value": "Accomodation",
+            "value": "Feature",
             "lang": "en"
         }
     ],
@@ -31,7 +31,7 @@
     ],
     "changed": [
         {
-            "value": "1450449508",
+            "value": "1451393303",
             "lang": "en"
         }
     ],
@@ -49,8 +49,8 @@
     ],
     "body": [
         {
-            "value": "<p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.<\/p>\r\n",
-            "format": "basic_html",
+            "value": "<p>Die ersten Drupal <strong>Business &amp; Community Days <\/strong>finden in Heidelberg statt.<\/p>\r\n\r\n<p><a class=\"feature__badge\" target=\"_blank\" href=\"https:\/\/www.eventbrite.de\/e\/drupal-business-community-days-heidelberg-2016-tickets-20015311335\">Tickets sichern<\/a><\/p>\r\n",
+            "format": "full_html",
             "summary": "",
             "lang": "en"
         }
