@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/admin\/structure\/menu\/item\/3\/edit?_format=hal_json"
+            "href": "http:\/\/default\/admin\/structure\/menu\/item\/2\/edit?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/menu_link_content\/menu_link_content"
@@ -19,8 +19,7 @@
     ],
     "title": [
         {
-            "value": "Tickets",
-            "lang": "en"
+            "value": "Tickets"
         }
     ],
     "menu_name": [
@@ -30,7 +29,7 @@
     ],
     "link": [
         {
-            "uri": "internal:\/#block-tickets",
+            "uri": "https:\/\/www.eventbrite.de\/e\/drupal-business-community-days-heidelberg-2016-tickets-20015311335",
             "title": "",
             "options": []
         }
@@ -42,7 +41,7 @@
     ],
     "rediscover": [
         {
-            "value": "1"
+            "value": "0"
         }
     ],
     "weight": [
@@ -68,8 +67,7 @@
     ],
     "changed": [
         {
-            "value": "1450448002",
-            "lang": "en"
+            "value": "1451415875"
         }
     ],
     "default_langcode": [

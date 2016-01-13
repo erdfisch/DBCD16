@@ -122,5 +122,12 @@
             "value": "1",
             "lang": "en"
         }
+    ],
+    "path": [
+        {
+            "alias": "\/news",
+            "pid": null,
+            "lang": "en"
+        }
     ]
 }

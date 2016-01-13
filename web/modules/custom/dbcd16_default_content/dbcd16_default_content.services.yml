@@ -1,0 +1,7 @@
+services:
+  dbcd16_default_content.normalizer.path_field:
+    class: Drupal\dbcd16_default_content\Normalizer\PathFieldNormalizer
+    arguments: ['@path.alias_storage']
+    tags:
+      # Set the priority higher than the generic field normalizer.
+      - { name: normalizer, priority: 20 }

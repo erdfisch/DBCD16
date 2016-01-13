@@ -5,3 +5,4 @@ package: DBCD16
 core: 8.x
 dependencies:
   - default_content
+  - hal

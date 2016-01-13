@@ -1,0 +1,22 @@
+<?php
+
+/**
+ * @file
+ * Provides installation hooks for the DBCD16 Default Content module.
+ */
+
+use Drupal\user\Entity\User;
+
+/**
+ * Implements hook_install().
+ */
+function dbcd16_default_content_install() {
+  // Set the UUID of the administrative user account so that it matches the
+  // exported UUID of the author of the default content.
+  $uid = 1;
+  // The UUID can be found in the
+  // _embedded->http://drupal.org/rest/relation/node/page/uid->0->uuid path of a
+  // serialized page node, for example.
+  $uuid = '881c0857-9f87-46a4-aa04-4d6698940e9b';
+  User::load($uid)->set('uuid', $uuid)->save();
+}

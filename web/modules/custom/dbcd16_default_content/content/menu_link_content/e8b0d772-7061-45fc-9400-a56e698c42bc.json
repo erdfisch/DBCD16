@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/admin\/structure\/menu\/item\/4\/edit?_format=hal_json"
+            "href": "http:\/\/default\/admin\/structure\/menu\/item\/3\/edit?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/menu_link_content\/menu_link_content"
@@ -19,8 +19,7 @@
     ],
     "title": [
         {
-            "value": "Sponsors",
-            "lang": "en"
+            "value": "Sponsors"
         }
     ],
     "menu_name": [
@@ -30,7 +29,7 @@
     ],
     "link": [
         {
-            "uri": "internal:\/#block-sponsoring",
+            "uri": "internal:\/sponsors",
             "title": "",
             "options": []
         }
@@ -68,8 +67,7 @@
     ],
     "changed": [
         {
-            "value": "1450423463",
-            "lang": "en"
+            "value": "1451479355"
         }
     ],
     "default_langcode": [

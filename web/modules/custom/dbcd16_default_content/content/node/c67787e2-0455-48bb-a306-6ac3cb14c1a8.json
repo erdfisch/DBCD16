@@ -198,5 +198,12 @@
             "value": "1",
             "lang": "en"
         }
+    ],
+    "path": [
+        {
+            "alias": "\/location",
+            "pid": null,
+            "lang": "en"
+        }
     ]
 }

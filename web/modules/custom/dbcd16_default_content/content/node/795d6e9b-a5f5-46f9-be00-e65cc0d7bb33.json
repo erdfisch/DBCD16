@@ -144,5 +144,12 @@
             "value": "1",
             "lang": "en"
         }
+    ],
+    "path": [
+        {
+            "alias": "\/program",
+            "pid": null,
+            "lang": "en"
+        }
     ]
 }

@@ -122,5 +122,12 @@
             "value": "1",
             "lang": "en"
         }
+    ],
+    "path": [
+        {
+            "alias": "\/sponsors",
+            "pid": null,
+            "lang": "en"
+        }
     ]
 }

@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/admin\/structure\/menu\/item\/5\/edit?_format=hal_json"
+            "href": "http:\/\/default\/admin\/structure\/menu\/item\/6\/edit?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/menu_link_content\/menu_link_content"
@@ -19,8 +19,7 @@
     ],
     "title": [
         {
-            "value": "News",
-            "lang": "en"
+            "value": "News"
         }
     ],
     "menu_name": [
@@ -30,7 +29,7 @@
     ],
     "link": [
         {
-            "uri": "internal:\/#block-news",
+            "uri": "internal:\/news",
             "title": "",
             "options": []
         }
@@ -68,8 +67,7 @@
     ],
     "changed": [
         {
-            "value": "1450419898",
-            "lang": "en"
+            "value": "1451473258"
         }
     ],
     "default_langcode": [

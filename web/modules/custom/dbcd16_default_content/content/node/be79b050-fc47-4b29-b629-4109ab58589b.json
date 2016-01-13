@@ -122,5 +122,12 @@
             "value": "1",
             "lang": "en"
         }
+    ],
+    "path": [
+        {
+            "alias": "\/jobs",
+            "pid": null,
+            "lang": "en"
+        }
     ]
 }

@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/admin\/structure\/menu\/item\/5\/edit?_format=hal_json"
+            "href": "http:\/\/default\/admin\/structure\/menu\/item\/7\/edit?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/menu_link_content\/menu_link_content"
@@ -9,7 +9,7 @@
     },
     "uuid": [
         {
-            "value": "bee1bfc9-ff2e-4d42-8a02-2ca069700d62"
+            "value": "739f6d03-c126-4d63-bf00-e35d2177acff"
         }
     ],
     "bundle": [
@@ -19,7 +19,7 @@
     ],
     "title": [
         {
-            "value": "Program"
+            "value": "Home"
         }
     ],
     "menu_name": [
@@ -29,7 +29,7 @@
     ],
     "link": [
         {
-            "uri": "internal:\/program",
+            "uri": "internal:\/homepage",
             "title": "",
             "options": []
         }
@@ -46,7 +46,7 @@
     ],
     "weight": [
         {
-            "value": "10"
+            "value": "0"
         }
     ],
     "expanded": [
@@ -67,7 +67,7 @@
     ],
     "changed": [
         {
-            "value": "1451476135"
+            "value": "1451469412"
         }
     ],
     "default_langcode": [
