@@ -8,8 +8,7 @@
         },
         "http:\/\/drupal.org\/rest\/relation\/node\/job\/uid": [
             {
-                "href": "http:\/\/default\/user\/0?_format=hal_json",
-                "lang": "en"
+                "href": "http:\/\/default\/user\/0?_format=hal_json"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/job\/revision_uid": [
@@ -36,8 +35,7 @@
     ],
     "title": [
         {
-            "value": "Drupal Developer",
-            "lang": "en"
+            "value": "Drupal Developer"
         }
     ],
     "_embedded": {
@@ -55,8 +53,7 @@
                     {
                         "value": "88298f85-cc1c-4930-8247-71e128f57c42"
                     }
-                ],
-                "lang": "en"
+                ]
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/job\/revision_uid": [
@@ -79,32 +76,27 @@
     },
     "status": [
         {
-            "value": "1",
-            "lang": "en"
+            "value": "1"
         }
     ],
     "created": [
         {
-            "value": "1450455153",
-            "lang": "en"
+            "value": "1450455153"
         }
     ],
     "changed": [
         {
-            "value": "1450697369",
-            "lang": "en"
+            "value": "1450697369"
         }
     ],
     "promote": [
         {
-            "value": "0",
-            "lang": "en"
+            "value": "0"
         }
     ],
     "sticky": [
         {
-            "value": "0",
-            "lang": "en"
+            "value": "0"
         }
     ],
     "revision_timestamp": [
@@ -128,8 +120,7 @@
         {
             "value": "<p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.<\/p>\r\n\r\n<p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.<\/p>\r\n",
             "format": "basic_html",
-            "summary": "",
-            "lang": "en"
+            "summary": ""
         }
     ],
     "field_contact": [
@@ -146,8 +137,7 @@
         {
             "uri": "http:\/\/example.org",
             "title": "",
-            "options": [],
-            "lang": "en"
+            "options": []
         }
     ],
     "field_pay_scale": [

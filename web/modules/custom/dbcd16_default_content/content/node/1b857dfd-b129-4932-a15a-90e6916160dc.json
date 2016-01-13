@@ -8,8 +8,7 @@
         },
         "http:\/\/drupal.org\/rest\/relation\/node\/page\/uid": [
             {
-                "href": "http:\/\/default\/user\/1?_format=hal_json",
-                "lang": "en"
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/page\/revision_uid": [
@@ -19,22 +18,22 @@
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/page\/field_elements": [
             {
-                "href": ""
+                "href": "http:\/\/default\/paragraph\/4?_format=hal_json"
             },
             {
-                "href": ""
+                "href": "http:\/\/default\/paragraph\/5?_format=hal_json"
             },
             {
-                "href": ""
+                "href": "http:\/\/default\/paragraph\/6?_format=hal_json"
             },
             {
-                "href": ""
+                "href": "http:\/\/default\/paragraph\/7?_format=hal_json"
             },
             {
-                "href": ""
+                "href": "http:\/\/default\/paragraph\/8?_format=hal_json"
             },
             {
-                "href": ""
+                "href": "http:\/\/default\/paragraph\/9?_format=hal_json"
             }
         ]
     },
@@ -56,8 +55,7 @@
     ],
     "title": [
         {
-            "value": "Home",
-            "lang": "en"
+            "value": "Home"
         }
     ],
     "_embedded": {
@@ -75,8 +73,7 @@
                     {
                         "value": "881c0857-9f87-46a4-aa04-4d6698940e9b"
                     }
-                ],
-                "lang": "en"
+                ]
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/page\/revision_uid": [
@@ -100,7 +97,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": ""
+                        "href": "http:\/\/default\/paragraph\/4?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/text"
@@ -115,7 +112,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": ""
+                        "href": "http:\/\/default\/paragraph\/5?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/image_text"
@@ -130,7 +127,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": ""
+                        "href": "http:\/\/default\/paragraph\/6?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/text"
@@ -145,7 +142,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": ""
+                        "href": "http:\/\/default\/paragraph\/7?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/image_text"
@@ -160,7 +157,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": ""
+                        "href": "http:\/\/default\/paragraph\/8?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/text"
@@ -175,7 +172,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": ""
+                        "href": "http:\/\/default\/paragraph\/9?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/image_text"
@@ -191,20 +188,17 @@
     },
     "status": [
         {
-            "value": "1",
-            "lang": "en"
+            "value": "1"
         }
     ],
     "created": [
         {
-            "value": "1451303268",
-            "lang": "en"
+            "value": "1451303268"
         }
     ],
     "changed": [
         {
-            "value": "1451469304",
-            "lang": "en"
+            "value": "1451469304"
         }
     ],
     "promote": [
@@ -214,8 +208,7 @@
     ],
     "sticky": [
         {
-            "value": "0",
-            "lang": "en"
+            "value": "0"
         }
     ],
     "revision_timestamp": [
@@ -238,8 +231,7 @@
     "path": [
         {
             "alias": "\/homepage",
-            "pid": null,
-            "lang": "en"
+            "pid": null
         }
     ]
 }

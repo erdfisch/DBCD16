@@ -1,0 +1,151 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/paragraph\/11?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/image_text"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/image_text\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/image_text\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/image_text\/field_image_demo": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/location-1.PNG",
+                "lang": "en"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "7c428478-ca7b-4465-ae10-16f01f8bcbe5"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "image_text"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/image_text\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "881c0857-9f87-46a4-aa04-4d6698940e9b"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/image_text\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "881c0857-9f87-46a4-aa04-4d6698940e9b"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/image_text\/field_image_demo": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/location-1.PNG"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "5828cbc4-8090-464a-b909-9e9bb5ca8e5a"
+                    }
+                ],
+                "uri": [
+                    {
+                        "value": "http:\/\/default\/sites\/default\/files\/location-1.PNG"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": "1451476356",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1451476356",
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "1451476356"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "en"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": "0",
+            "lang": "en"
+        }
+    ],
+    "content_translation_status": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "field_text_demo": [
+        {
+            "value": "<p>Mit der Jugendherberge Heidelberg haben wir ein perfekten Partner f\u00fcr unser Camp gefunden.<\/p>\r\n\r\n<p>Die Location befindet sich im Nordwesten, in Mitten des Wissenschaftstandorts Heidelberg direkt am Neckar. Die Kombination aus komfortablen Tagungsgegebenheiten und dennoch l\u00e4ssigem Flair hat uns besonders \u00fcberzeugt.<\/p>\r\n\r\n<p>In 2015 fand dort u.a. die DebConf und die Gameforge mit jeweils fast 500 Besuchern statt.<\/p>\r\n",
+            "format": "basic_html",
+            "lang": "en"
+        }
+    ]
+}

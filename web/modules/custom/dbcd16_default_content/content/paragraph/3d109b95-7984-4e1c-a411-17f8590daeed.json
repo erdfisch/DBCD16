@@ -1,0 +1,151 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/paragraph\/10?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/image_text"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/image_text\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/image_text\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/image_text\/field_image_demo": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/programm.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "3d109b95-7984-4e1c-a411-17f8590daeed"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "image_text"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/image_text\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "881c0857-9f87-46a4-aa04-4d6698940e9b"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/image_text\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "881c0857-9f87-46a4-aa04-4d6698940e9b"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/image_text\/field_image_demo": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/programm.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "31d38321-5a04-43cd-9907-7d3b370c72b3"
+                    }
+                ],
+                "uri": [
+                    {
+                        "value": "http:\/\/default\/sites\/default\/files\/programm.jpg"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": "1451433643",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1451433643",
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "1451433643"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "en"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": "0",
+            "lang": "en"
+        }
+    ],
+    "content_translation_status": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "field_text_demo": [
+        {
+            "value": "<h3>Wenn das Programm vorbei ist...<\/h3>\r\n\r\n<p>Lorem Ipsum<\/p>\r\n\r\n<p>Die klimatisch g\u00fcnstigen Bedingungen und sein Ruf als \"Stadt der Romantik\" machen Heidelberg zu einem unvergesslichen Ausflugsziel und so mancher Gast hat sein Herz in Heidelberg verloren.<\/p>\r\n",
+            "format": "basic_html",
+            "lang": "en"
+        }
+    ]
+}

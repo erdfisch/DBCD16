@@ -1,0 +1,151 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/paragraph\/5?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/image_text"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/image_text\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/image_text\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/image_text\/field_image_demo": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/tickets.gif",
+                "lang": "en"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "ff4eb891-378a-4a57-bb00-aa582fa2930f"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "image_text"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/image_text\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "881c0857-9f87-46a4-aa04-4d6698940e9b"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/image_text\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "881c0857-9f87-46a4-aa04-4d6698940e9b"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/image_text\/field_image_demo": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/tickets.gif"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "5e608494-ff66-4aa5-bc00-a066f1dd7904"
+                    }
+                ],
+                "uri": [
+                    {
+                        "value": "http:\/\/default\/sites\/default\/files\/tickets.gif"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": "1451433372",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1451433372",
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "1451433372"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "en"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": "0",
+            "lang": "en"
+        }
+    ],
+    "content_translation_status": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "field_text_demo": [
+        {
+            "value": "<p>Die Tickets sind an allen 3 Tagen g\u00fcltig und beinhalten eine All-Inklusive Versorgung (Fr\u00fchst\u00fcck, Mittag, Abendessen, Kaffeepausen). \u00dcbernachtung ist inklusive.<\/p>\r\n",
+            "format": "basic_html",
+            "lang": "en"
+        }
+    ]
+}

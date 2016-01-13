@@ -1,0 +1,122 @@
+{
+    "_links": {
+        "self": {
+          "href": "http:\/\/default\/paragraph\/14?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/text"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/text\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/text\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "0d65acea-8d60-460f-a150-80db08e14b49"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "text"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/text\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "881c0857-9f87-46a4-aa04-4d6698940e9b"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/text\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "881c0857-9f87-46a4-aa04-4d6698940e9b"
+                    }
+                ]
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": "1451476637",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1451476637",
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "1451476637"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "en"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": "0",
+            "lang": "en"
+        }
+    ],
+    "content_translation_status": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "field_text_demo": [
+        {
+            "value": "<h3>Wir freuen uns sehr auf die 1. Drupal Business &amp; Community Days in Heidelberg<\/h3>\r\n\r\n<p>Heidelberg z\u00e4hlt zweiffelos weltweit zu den bekanntesten deutschen St\u00e4dten Deutschlands. 2015 gewann Heidelberg den \"Interrail Destination Award.\"<\/p>\r\n\r\n<p>Das Heidelberger Schloss, die malerische Altstadt, aber auch eine Vielzahl an Museen lockt j\u00e4hrlich bis zu 3 Millionen Besucher an. Die 1386 gegr\u00fcndete Ruprecht-Karls-Universit\u00e4t ist die \u00e4lteste im Land. Mit ihren fast 30.000 Studierenden verleiht sie der Stadt zusammen mit mehreren anderen Hochschulen ein ausgesprochen jugendliches Flair. Eine Vielzahl wissenschaftlicher Einrichtungen, darunter das Deutsche Krebsforschungszentrum und gleich vier Max-Planck-Institute, untermauern den Ruf Heidelbergs als Wissenschaftsstadt und zugleich Residenz des Geistes. Zahlreiche Nobelpreistr\u00e4ger haben hier gelebt, geforscht und gelehrt.<\/p>\r\n\r\n<p>Die klimatisch g\u00fcnstigen Bedingungen und sein Ruf als \"Stadt der Romantik\" machen Heidelberg zu einem unvergesslichen Ausflugsziel und so mancher Gast hat sein Herz in Heidelberg verloren.<\/p>\r\n",
+            "format": "basic_html",
+            "lang": "en"
+        }
+    ]
+}

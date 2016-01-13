@@ -1,0 +1,11 @@
+# This is a fake route which only exists so that paragraph entities can be
+# normalized to HAL. We never actually access the route (hence, the controller)
+# but we need to be able to generate a URL to it.
+# @see dbcd16_default_content_entity_type_build()
+entity.paragraph.canonical:
+  path: '/paragraph/{paragraph}'
+  defaults:
+    _controller: '\Drupal\system\Controller\Http4xxController:on404'
+    _title: 'Page not found'
+  requirements:
+    _access: 'TRUE'

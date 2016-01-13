@@ -5,3 +5,9 @@ services:
     tags:
       # Set the priority higher than the generic field normalizer.
       - { name: normalizer, priority: 20 }
+  dbcd16_default_content.normalizer.entity_reference_revisions_item.hal:
+    class: Drupal\dbcd16_default_content\Normalizer\EntityReferenceRevisionsItemNormalizer
+    arguments: ['@rest.link_manager', '@serializer.entity_resolver', '@entity_type.manager']
+    tags:
+      # Set the priority higher than the generic field item normalizer.
+      - { name: normalizer, priority: 20 }
