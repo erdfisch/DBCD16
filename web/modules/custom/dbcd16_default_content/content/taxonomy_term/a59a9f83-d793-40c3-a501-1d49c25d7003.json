@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/drupal-business-and-community-days.de\/taxonomy\/term\/2?_format=hal_json"
+            "href": "http:\/\/drupal-business-and-community-days.de\/taxonomy\/term\/8?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/sponsor_level"
@@ -25,19 +25,17 @@
     ],
     "name": [
         {
-            "value": "Diamond",
-            "lang": "en"
+            "value": "Rasberry"
         }
     ],
     "weight": [
         {
-            "value": "0"
+            "value": "5"
         }
     ],
     "changed": [
         {
-            "value": "1450423812",
-            "lang": "en"
+            "value": "1451419527"
         }
     ],
     "default_langcode": [

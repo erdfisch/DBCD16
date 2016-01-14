@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/drupal-business-and-community-days.de\/taxonomy\/term\/5?_format=hal_json"
+            "href": "http:\/\/drupal-business-and-community-days.de\/taxonomy\/term\/4?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tracks"
@@ -25,8 +25,7 @@
     ],
     "name": [
         {
-            "value": "Business track",
-            "lang": "en"
+            "value": "Business track"
         }
     ],
     "weight": [
@@ -36,8 +35,7 @@
     ],
     "changed": [
         {
-            "value": "1450371842",
-            "lang": "en"
+            "value": "1450371842"
         }
     ],
     "default_langcode": [

@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/drupal-business-and-community-days.de\/taxonomy\/term\/8?_format=hal_json"
+            "href": "http:\/\/drupal-business-and-community-days.de\/taxonomy\/term\/7?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/sponsor_level"
@@ -25,19 +25,17 @@
     ],
     "name": [
         {
-            "value": "Gold",
-            "lang": "en"
+            "value": "Bronze"
         }
     ],
     "weight": [
         {
-            "value": "2"
+            "value": "4"
         }
     ],
     "changed": [
         {
-            "value": "1450423850",
-            "lang": "en"
+            "value": "1451419517"
         }
     ],
     "default_langcode": [
