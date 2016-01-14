@@ -1,0 +1,40 @@
+<?php
+
+
+use Drupal\Component\Utility\Html;
+
+/**
+ * Implements hook_html_head_alter().
+ */
+function dbcd_theme_base_html_head_alter(&$head_elements) {
+  // HTML5 charset declaration.
+  $head_elements['system_meta_content_type']['#attributes'] = array(
+    'charset' => 'utf-8',
+  );
+
+  // Optimize mobile viewport.
+  $head_elements['mobile_viewport'] = array(
+    '#type' => 'html_tag',
+    '#tag' => 'meta',
+    '#attributes' => array(
+      'name' => 'viewport',
+      'content' => 'width=device-width, initial-scale=1',
+    ),
+  );
+}
+
+/**
+ * Preprocess variables for html templates.
+ *
+ * @param $variables
+ */
+function dbcd_theme_base_preprocess_html(&$variables) {
+  if ($variables['root_path']) {
+    $path = \Drupal::service('path.current')->getPath();
+    $alias = \Drupal::service('path.alias_manager')->getAliasByPath($path);
+    $variables['alias'] = trim($alias, '/');
+  }
+  else {
+    $variables['alias'] = FALSE;
+  }
+}

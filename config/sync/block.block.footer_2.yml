@@ -7,9 +7,9 @@ dependencies:
   module:
     - block_content
   theme:
-    - dbcd_2015
+    - dbcd_theme_2016
 id: footer_2
-theme: dbcd_2015
+theme: dbcd_theme_2016
 region: footer
 weight: -8
 provider: null

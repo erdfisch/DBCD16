@@ -7,9 +7,9 @@ dependencies:
   module:
     - system
   theme:
-    - dbcd_2015
+    - dbcd_theme_2016
 id: mainnavigation_2
-theme: dbcd_2015
+theme: dbcd_theme_2016
 region: header
 weight: -4
 provider: null

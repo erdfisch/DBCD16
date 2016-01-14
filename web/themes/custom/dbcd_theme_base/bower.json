@@ -1,0 +1,12 @@
+{
+  "name": "dbcd_theme_base",
+  "version": "8.0.1",
+  "description": "Drupal base theme for Drupal Business & Community Days websites.",
+  "private": true,
+  "devDependencies": {
+    "bourbon": "~4.2.6",
+    "neat": "~1.7.2",
+    "normalize.css": "~3.0.2",
+    "skeleton": "~2.0.4"
+  }
+}

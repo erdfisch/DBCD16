@@ -1,0 +1,9 @@
+global-styling:
+  version: VERSION
+  css:
+    base:
+      css/dbcd_theme_2106.css: {}
+global-scripts:
+  version: VERSION
+  js:
+    js/js-src/scripts.js: {}

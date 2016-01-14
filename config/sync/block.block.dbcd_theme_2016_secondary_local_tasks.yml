@@ -1,0 +1,20 @@
+uuid: 8e37faba-f7e4-45b1-ae03-3b53935deade
+langcode: en
+status: false
+dependencies:
+  theme:
+    - dbcd_theme_2016
+id: dbcd_theme_2016_secondary_local_tasks
+theme: dbcd_theme_2016
+region: '-1'
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  provider: core
+  label_display: '0'
+  primary: false
+  secondary: true
+visibility: {  }

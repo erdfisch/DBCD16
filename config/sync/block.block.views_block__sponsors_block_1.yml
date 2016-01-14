@@ -8,9 +8,9 @@ dependencies:
     - system
     - views
   theme:
-    - dbcd_2015
+    - dbcd_theme_2016
 id: views_block__sponsors_block_1
-theme: dbcd_2015
+theme: dbcd_theme_2016
 region: content
 weight: -3
 provider: null

@@ -1,9 +1,0 @@
-global-styling:
-  version: VERSION
-  css:
-    base:
-      css/dbcd2105.css: {}
-global-scripts:
-  version: VERSION
-  js:
-    js/js-src/scripts.js: {}

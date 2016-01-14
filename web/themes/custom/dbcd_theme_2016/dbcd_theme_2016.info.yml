@@ -1,0 +1,16 @@
+name: DBCD 2015
+type: theme
+description: Drupal theme for the Drupal Business & Community Days 2015 websites.
+version: VERSION
+core: 8.x
+base theme: dbcd_theme_base
+
+libraries:
+  - dbcd_theme_2016/global-styling
+  - dbcd_theme_2016/global-scripts
+
+regions:
+  header: Header
+  featured: Featured
+  content: Content
+  footer: Footer
