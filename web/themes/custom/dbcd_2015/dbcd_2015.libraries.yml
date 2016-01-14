@@ -2,8 +2,8 @@ global-styling:
   version: VERSION
   css:
     base:
-      css/dbcd_base.css: {}
+      css/dbcd2105.css: {}
 global-scripts:
   version: VERSION
   js:
-    js/scripts.js: {}
+    js/js-src/scripts.js: {}
