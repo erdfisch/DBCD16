@@ -11,6 +11,9 @@ web/profiles/contrib
 config/active/**/*.yml
 config/active/.htaccess
 
+# Ignore theme build tools
+web/themes/custom/dbcd_base/node_modules
+
 # Ignore Drupal's file directory
 web/sites/default/files
 web/sites/default/settings.php
