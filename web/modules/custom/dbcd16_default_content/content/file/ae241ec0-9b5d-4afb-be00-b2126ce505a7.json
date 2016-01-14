@@ -1,0 +1,79 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/drupal-business-and-community-days.de\/sites\/default\/files\/location-2.PNG"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/drupal-business-and-community-days.de\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "ae241ec0-9b5d-4afb-be00-b2126ce505a7"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/drupal-business-and-community-days.de\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "881c0857-9f87-46a4-aa04-4d6698940e9b"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "location-2.PNG"
+        }
+    ],
+    "uri": [
+        {
+            "value": "http:\/\/drupal-business-and-community-days.de\/sites\/default\/files\/location-2.PNG"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": "256007"
+        }
+    ],
+    "status": [
+        {
+            "value": "1"
+        }
+    ],
+    "created": [
+        {
+            "value": "1451476462"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1451476579"
+        }
+    ]
+}

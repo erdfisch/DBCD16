@@ -1,0 +1,79 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/drupal-business-and-community-days.de\/sites\/default\/files\/logo\/2015-12\/28918_UFZ_LOGO_S_RGB.jpg"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/drupal-business-and-community-days.de\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "550b0fdb-bef0-4594-8e18-24f8c727c68e"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/drupal-business-and-community-days.de\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "881c0857-9f87-46a4-aa04-4d6698940e9b"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "28918_UFZ_LOGO_S_RGB.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "http:\/\/drupal-business-and-community-days.de\/sites\/default\/files\/logo\/2015-12\/28918_UFZ_LOGO_S_RGB.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": "302795"
+        }
+    ],
+    "status": [
+        {
+            "value": "1"
+        }
+    ],
+    "created": [
+        {
+            "value": "1451418444"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1451418464"
+        }
+    ]
+}

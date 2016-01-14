@@ -1,0 +1,79 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/drupal-business-and-community-days.de\/sites\/default\/files\/2015-12\/news-3.PNG"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/drupal-business-and-community-days.de\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "19df3303-af13-4a99-8900-b846f76d6ecb"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/drupal-business-and-community-days.de\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "881c0857-9f87-46a4-aa04-4d6698940e9b"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "news-3.PNG"
+        }
+    ],
+    "uri": [
+        {
+            "value": "http:\/\/drupal-business-and-community-days.de\/sites\/default\/files\/2015-12\/news-3.PNG"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": "89082"
+        }
+    ],
+    "status": [
+        {
+            "value": "1"
+        }
+    ],
+    "created": [
+        {
+            "value": "1451473636"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1451473643"
+        }
+    ]
+}

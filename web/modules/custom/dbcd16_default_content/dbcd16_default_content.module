@@ -5,6 +5,8 @@
  * Defines default content for install purposes.
  */
 
+use Drupal\Core\Entity\EntityInterface;
+
 /**
  * Implements hook_entity_type_build().
  *
@@ -17,5 +19,23 @@ function dbcd16_default_content_entity_type_build(array &$entity_types) {
   /** @var \Drupal\Core\Entity\EntityTypeInterface[] $entity_types */
   if (isset($entity_types['paragraph'])) {
     $entity_types['paragraph']->setLinkTemplate('canonical', '/paragraph/{paragraph}');
+  }
+}
+
+/**
+ * Implements hook_file_presave() for the file entity.
+ *
+ * Denormalized file entities are (confusingly) permanently saved to the
+ * temporary file scheme so we move them to the public file scheme here.
+ *
+ * @see \Drupal\hal\Normalizer\FileEntityNormalizer::denormalize()
+ */
+function dbcd16_default_content_file_presave(EntityInterface $file) {
+  /** @var \Drupal\file\FileInterface $file */
+  $uri = $file->getFileUri();
+  if ($file->isPermanent() && (substr($uri, 0, 12) === 'temporary://')) {
+    if ($new_uri = file_unmanaged_move($uri, 'public://' . substr($uri, 12))) {
+      $file->setFileUri($new_uri);
+    }
   }
 }
