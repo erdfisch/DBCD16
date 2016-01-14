@@ -1,39 +1,39 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/homepage?_format=hal_json"
+            "href": "http:\/\/drupal-business-and-community-days.de\/homepage?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/node\/page"
         },
         "http:\/\/drupal.org\/rest\/relation\/node\/page\/uid": [
             {
-                "href": "http:\/\/default\/user\/1?_format=hal_json"
+                "href": "http:\/\/drupal-business-and-community-days.de\/user\/1?_format=hal_json"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/page\/revision_uid": [
             {
-                "href": "http:\/\/default\/user\/1?_format=hal_json"
+                "href": "http:\/\/drupal-business-and-community-days.de\/user\/1?_format=hal_json"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/page\/field_elements": [
             {
-                "href": "http:\/\/default\/paragraph\/4?_format=hal_json"
+                "href": "http:\/\/drupal-business-and-community-days.de\/paragraph\/4?_format=hal_json"
             },
             {
-                "href": "http:\/\/default\/paragraph\/5?_format=hal_json"
+                "href": "http:\/\/drupal-business-and-community-days.de\/paragraph\/5?_format=hal_json"
             },
             {
-                "href": "http:\/\/default\/paragraph\/6?_format=hal_json"
+                "href": "http:\/\/drupal-business-and-community-days.de\/paragraph\/6?_format=hal_json"
             },
             {
-                "href": "http:\/\/default\/paragraph\/7?_format=hal_json"
+                "href": "http:\/\/drupal-business-and-community-days.de\/paragraph\/7?_format=hal_json"
             },
             {
-                "href": "http:\/\/default\/paragraph\/8?_format=hal_json"
+                "href": "http:\/\/drupal-business-and-community-days.de\/paragraph\/8?_format=hal_json"
             },
             {
-                "href": "http:\/\/default\/paragraph\/9?_format=hal_json"
+                "href": "http:\/\/drupal-business-and-community-days.de\/paragraph\/9?_format=hal_json"
             }
         ]
     },
@@ -63,7 +63,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                        "href": "http:\/\/drupal-business-and-community-days.de\/user\/1?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -80,7 +80,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                        "href": "http:\/\/drupal-business-and-community-days.de\/user\/1?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -97,7 +97,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/paragraph\/4?_format=hal_json"
+                        "href": "http:\/\/drupal-business-and-community-days.de\/paragraph\/4?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/text"
@@ -112,7 +112,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/paragraph\/5?_format=hal_json"
+                        "href": "http:\/\/drupal-business-and-community-days.de\/paragraph\/5?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/image_text"
@@ -127,7 +127,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/paragraph\/6?_format=hal_json"
+                        "href": "http:\/\/drupal-business-and-community-days.de\/paragraph\/6?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/text"
@@ -142,7 +142,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/paragraph\/7?_format=hal_json"
+                        "href": "http:\/\/drupal-business-and-community-days.de\/paragraph\/7?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/image_text"
@@ -157,7 +157,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/paragraph\/8?_format=hal_json"
+                        "href": "http:\/\/drupal-business-and-community-days.de\/paragraph\/8?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/text"
@@ -172,7 +172,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/paragraph\/9?_format=hal_json"
+                        "href": "http:\/\/drupal-business-and-community-days.de\/paragraph\/9?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/image_text"

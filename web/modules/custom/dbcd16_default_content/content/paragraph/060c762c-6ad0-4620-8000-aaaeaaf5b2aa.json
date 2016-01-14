@@ -1,20 +1,20 @@
 {
     "_links": {
         "self": {
-          "href": "http:\/\/default\/paragraph\/2?_format=hal_json"
+          "href": "http:\/\/drupal-business-and-community-days.de\/paragraph\/2?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/text"
         },
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/text\/uid": [
             {
-                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "href": "http:\/\/drupal-business-and-community-days.de\/user\/1?_format=hal_json",
                 "lang": "en"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/paragraph\/text\/revision_uid": [
             {
-                "href": "http:\/\/default\/user\/1?_format=hal_json"
+                "href": "http:\/\/drupal-business-and-community-days.de\/user\/1?_format=hal_json"
             }
         ]
     },
@@ -39,7 +39,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                        "href": "http:\/\/drupal-business-and-community-days.de\/user\/1?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -57,7 +57,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                        "href": "http:\/\/drupal-business-and-community-days.de\/user\/1?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"

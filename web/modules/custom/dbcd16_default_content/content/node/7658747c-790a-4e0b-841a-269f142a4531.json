@@ -1,24 +1,24 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/node\/13?_format=hal_json"
+            "href": "http:\/\/drupal-business-and-community-days.de\/node\/13?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/node\/event"
         },
         "http:\/\/drupal.org\/rest\/relation\/node\/event\/uid": [
             {
-                "href": "http:\/\/default\/user\/0?_format=hal_json"
+                "href": "http:\/\/drupal-business-and-community-days.de\/user\/0?_format=hal_json"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/event\/revision_uid": [
             {
-                "href": "http:\/\/default\/user\/0?_format=hal_json"
+                "href": "http:\/\/drupal-business-and-community-days.de\/user\/0?_format=hal_json"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/event\/field_track": [
             {
-                "href": "http:\/\/default\/taxonomy\/term\/4?_format=hal_json"
+                "href": "http:\/\/drupal-business-and-community-days.de\/taxonomy\/term\/4?_format=hal_json"
             }
         ]
     },
@@ -48,7 +48,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/user\/0?_format=hal_json"
+                        "href": "http:\/\/drupal-business-and-community-days.de\/user\/0?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -65,7 +65,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/user\/0?_format=hal_json"
+                        "href": "http:\/\/drupal-business-and-community-days.de\/user\/0?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -82,7 +82,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/taxonomy\/term\/4?_format=hal_json"
+                        "href": "http:\/\/drupal-business-and-community-days.de\/taxonomy\/term\/4?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tracks"

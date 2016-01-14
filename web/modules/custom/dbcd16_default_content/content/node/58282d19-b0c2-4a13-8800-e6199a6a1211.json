@@ -1,24 +1,24 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/node\/4?_format=hal_json"
+            "href": "http:\/\/drupal-business-and-community-days.de\/node\/4?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
         },
         "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
             {
-                "href": "http:\/\/default\/user\/0?_format=hal_json"
+                "href": "http:\/\/drupal-business-and-community-days.de\/user\/0?_format=hal_json"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
             {
-                "href": "http:\/\/default\/user\/0?_format=hal_json"
+                "href": "http:\/\/drupal-business-and-community-days.de\/user\/0?_format=hal_json"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
             {
-                "href": "http:\/\/default\/sites\/default\/files\/2015-12\/news-1.PNG"
+                "href": "http:\/\/drupal-business-and-community-days.de\/sites\/default\/files\/2015-12\/news-1.PNG"
             }
         ]
     },
@@ -48,7 +48,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/user\/0?_format=hal_json"
+                        "href": "http:\/\/drupal-business-and-community-days.de\/user\/0?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -65,7 +65,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/user\/0?_format=hal_json"
+                        "href": "http:\/\/drupal-business-and-community-days.de\/user\/0?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -82,7 +82,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/sites\/default\/files\/2015-12\/news-1.PNG"
+                        "href": "http:\/\/drupal-business-and-community-days.de\/sites\/default\/files\/2015-12\/news-1.PNG"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
@@ -95,7 +95,7 @@
                 ],
                 "uri": [
                     {
-                        "value": "http:\/\/default\/sites\/default\/files\/2015-12\/news-1.PNG"
+                        "value": "http:\/\/drupal-business-and-community-days.de\/sites\/default\/files\/2015-12\/news-1.PNG"
                     }
                 ]
             }
