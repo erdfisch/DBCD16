@@ -28,7 +28,7 @@
       article {
         width: 49%;
         display: inline-block;
-        transform: rotate(-5deg);
+        transform: skewX(-5deg);
         margin-bottom: 2rem;
         vertical-align: top;
         padding: 2rem 2rem 5rem;
@@ -39,7 +39,7 @@
       }
 
       article > * {
-       transform: rotate(5deg);
+       transform: skewX(5deg);
      }
 
     }
