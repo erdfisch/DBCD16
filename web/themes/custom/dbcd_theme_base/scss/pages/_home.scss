@@ -27,6 +27,56 @@
 
   }
 
+  .block-views .view-featured-attendees {
+
+    .view-content {
+      text-align: justify;
+    }
+
+    .views-row {
+      width: 275px;
+      display: inline-block;
+      transform: skewY(-5deg);
+      margin-bottom: 2rem;
+      vertical-align: top;
+      padding: 2rem 2rem 5rem;
+    }
+
+    .views-row:hover {
+      background: #e5e5e5;
+    }
+
+    .views-row > * {
+      transform: skewY(5deg);
+    }
+
+
+
+    .views-field {
+      margin-bottom: .5rem;
+    }
+
+    .views-field-user-picture {
+      .field-content {
+        // The width is inherited as 275px so this creates a skewed square.
+        // For this to look correct the image must be set to have a width of
+        // 275px and a height of (tan(5°) + 1) * 275px = 299px.
+        height: 275px;
+        transform: skewY(-5deg);
+        overflow: hidden;
+      }
+
+      .field-content > * {
+        transform: skewY(5deg);
+        // See above. tan(5°) / 2 * 275px = 12px
+        margin-top: -12px;
+      }
+
+      // See above.
+      padding-bottom: 12px;
+    }
+  }
+
   @media (min-width: 550px) {
 
     .node__content {
