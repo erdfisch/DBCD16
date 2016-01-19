@@ -68,13 +68,13 @@
             width: 47%;
             vertical-align: top;
             display: inline-block;
-            transform: skewX(-5deg);
+            transform: skewY(-5deg);
             padding-bottom: 5rem;
             margin-bottom: 2rem;
           }
 
           li > * {
-            transform: skewX(5deg);
+            transform: skewY(5deg);
           }
 
           li:last-of-type {
