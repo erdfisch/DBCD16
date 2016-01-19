@@ -5,11 +5,10 @@ dependencies: {  }
 name: medium
 label: 'Medium (220×220)'
 effects:
-  bddf0d06-42f9-4c75-a700-a33cafa25ea0:
-    uuid: bddf0d06-42f9-4c75-a700-a33cafa25ea0
-    id: image_scale
-    weight: 0
+  aa411d05-91e0-471b-bf00-a4d542b16932:
+    uuid: aa411d05-91e0-471b-bf00-a4d542b16932
+    id: image_scale_and_crop
+    weight: 1
     data:
-      width: 220
-      height: 220
-      upscale: false
+      width: 275
+      height: 299
