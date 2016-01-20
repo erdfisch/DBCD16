@@ -1,0 +1,20 @@
+uuid: 3db0cde3-37f6-4527-9d02-2b5693cfcbbb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_twitter_account
+  module:
+    - user
+id: user.user.field_twitter_account
+field_name: field_twitter_account
+entity_type: user
+bundle: user
+label: 'Twitter account'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

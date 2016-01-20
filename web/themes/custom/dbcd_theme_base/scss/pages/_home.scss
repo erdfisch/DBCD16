@@ -34,7 +34,7 @@
     }
 
     .views-row {
-      width: 275px;
+      width: auto;
       display: inline-block;
       transform: skewY(-5deg);
       margin-bottom: 2rem;
@@ -50,30 +50,45 @@
       transform: skewY(5deg);
     }
 
-
-
     .views-field {
       margin-bottom: .5rem;
     }
 
     .views-field-user-picture {
       .field-content {
-        // The width is inherited as 275px so this creates a skewed square.
-        // For this to look correct the image must be set to have a width of
-        // 275px and a height of (tan(5°) + 1) * 275px = 299px.
-        height: 275px;
+        width: 183px;
+        height: 183px;
         transform: skewY(-5deg);
         overflow: hidden;
       }
 
       .field-content > * {
+        // For this to look correct the image must be set to have a width of
+        // 183px and a height of (tan(5°) + 1) * 183px = 199px.
         transform: skewY(5deg);
-        // See above. tan(5°) / 2 * 275px = 12px
-        margin-top: -12px;
+        // See above. tan(5°) / 2 * 183px = 8px
+        margin-top: -8px;
       }
 
       // See above.
-      padding-bottom: 12px;
+      padding-bottom: 8px;
+    }
+
+    .views-field-field-twitter-account {
+      margin-top: 30px;
+
+      a {
+        color: #222;
+        font-weight: bold;
+        text-decoration: none;
+      }
+    }
+
+    .views-field-name .field-content {
+      background-color: #222;
+      color: #fff;
+      font-weight: bold;
+      padding: 5px;
     }
   }
 
@@ -101,6 +116,24 @@
 
       }
 
+    }
+
+    .block-views .view-featured-attendees {
+
+      .views-row {
+        min-width: 435px;
+      }
+
+      .views-field-user-picture {
+        float: left;
+        margin-right: 67px;
+      }
+
+      .views-field-field-twitter-account,
+      .views-field-name {
+        // 183px for .views-field-user-picture itself + 67px above.
+        margin-left: 250px;
+      }
     }
 
   }

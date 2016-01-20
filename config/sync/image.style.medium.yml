@@ -3,12 +3,12 @@ langcode: en
 status: true
 dependencies: {  }
 name: medium
-label: 'Medium (220×220)'
+label: 'Medium (183×199)'
 effects:
   aa411d05-91e0-471b-bf00-a4d542b16932:
     uuid: aa411d05-91e0-471b-bf00-a4d542b16932
     id: image_scale_and_crop
     weight: 1
     data:
-      width: 275
-      height: 299
+      width: 183
+      height: 199

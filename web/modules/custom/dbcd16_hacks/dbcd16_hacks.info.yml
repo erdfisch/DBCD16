@@ -1,0 +1,4 @@
+type: module
+name: 'DBCD16 Hacks'
+description: 'Contains hacks and workarounds'
+core: 8.x

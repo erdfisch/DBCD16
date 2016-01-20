@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains hook implementations for the DBCD16 hacks module.
+ */
+
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Render\Element;
+
+/**
+ * Implements hook_field_widget_form_alter().
+ *
+ * @todo The 'string_textfield' (or another) widget should support configuring
+ *   the field prefix and suffix.
+ */
+function dbcd16_hacks_field_widget_form_alter(&$element, FormStateInterface $form_state, $context) {
+  /** @var \Drupal\Core\Field\FieldItemListInterface $items */
+  $items = $context['items'];
+
+  if ($items->getEntity()->getEntityTypeId() === 'user') {
+    $field_name = $items->getFieldDefinition()->getName();
+    if ($field_name === 'field_twitter_account') {
+      foreach (Element::children($element) as $delta) {
+        $element[$delta]['#field_prefix'] = '@';
+      }
+    }
+    elseif ($field_name === 'field_drupal_org_username') {
+      foreach (Element::children($element) as $delta) {
+        $element[$delta]['#field_prefix'] = 'https://www.drupal.org/u/';
+      }
+    }
+  }
+
+}
