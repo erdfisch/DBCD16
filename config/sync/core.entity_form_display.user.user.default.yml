@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.user.user.field_description
+    - field.field.user.user.field_bio
     - field.field.user.user.field_drupal_org_username
     - field.field.user.user.field_featured_attendee
     - field.field.user.user.field_twitter_account
@@ -25,7 +25,7 @@ content:
     weight: 7
     settings: {  }
     third_party_settings: {  }
-  field_description:
+  field_bio:
     weight: 5
     settings:
       size: 60

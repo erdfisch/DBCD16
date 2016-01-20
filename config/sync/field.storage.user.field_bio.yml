@@ -5,8 +5,8 @@ dependencies:
   module:
     - text
     - user
-id: user.field_description
-field_name: field_description
+id: user.field_bio
+field_name: field_bio
 entity_type: user
 type: text
 settings:

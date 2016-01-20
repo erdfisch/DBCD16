@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.user.field_description
+    - field.storage.user.field_bio
     - field.storage.user.field_twitter_account
     - field.storage.user.user_picture
   module:
@@ -256,10 +256,10 @@ display:
           entity_type: user
           entity_field: name
           plugin_id: field
-        field_description:
-          id: field_description
-          table: user__field_description
-          field: field_description
+        field_bio:
+          id: field_bio
+          table: user__field_bio
+          field: field_bio
           relationship: none
           group_type: group
           admin_label: ''
@@ -385,7 +385,7 @@ display:
         - 'languages:language_interface'
         - user.permissions
       tags:
-        - 'config:field.storage.user.field_description'
+        - 'config:field.storage.user.field_bio'
         - 'config:field.storage.user.field_twitter_account'
         - 'config:field.storage.user.user_picture'
   block_1:
@@ -402,6 +402,6 @@ display:
         - 'languages:language_interface'
         - user.permissions
       tags:
-        - 'config:field.storage.user.field_description'
+        - 'config:field.storage.user.field_bio'
         - 'config:field.storage.user.field_twitter_account'
         - 'config:field.storage.user.user_picture'

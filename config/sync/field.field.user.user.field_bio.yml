@@ -3,12 +3,12 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.user.field_description
+    - field.storage.user.field_bio
   module:
     - text
     - user
-id: user.user.field_description
-field_name: field_description
+id: user.user.field_bio
+field_name: field_bio
 entity_type: user
 bundle: user
 label: Description
