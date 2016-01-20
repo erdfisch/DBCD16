@@ -13,4 +13,6 @@ regions:
   header: Header
   featured: Featured
   content: Content
+  content_separator: Content separator
+  content_lower: Lower Content
   footer: Footer

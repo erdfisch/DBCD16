@@ -203,17 +203,30 @@
   /* Larger than desktop */
   @media (min-width: 1000px) {
 
+    .navigation__inner {
+      width: 100%;
+    }
+
+    .navigation__inner::after {
+      content: none;
+    }
+
     .navigation--menu-icon {
       display: none;
     }
 
     ul {
-      position: static;
+      position: relative;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
       width: 100%;
-      margin-top: 25px;
+      margin: 0;
       padding: 0;
       background: none;
       text-align: left;
+      opacity: 1;
 
       li {
         display: inline-block;
@@ -270,4 +283,11 @@
 
 .toolbar-horizontal .navigation.menu--main {
   top: 80px;
+}
+
+@media (min-width: 1000px) {
+  .navigation.menu--main {
+    top: 0;
+    padding-top: 25px;
+  }
 }

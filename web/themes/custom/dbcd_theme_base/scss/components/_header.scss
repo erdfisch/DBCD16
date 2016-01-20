@@ -1,5 +1,6 @@
 .region-header {
   background: #ffffff url(../images/silhouette.gif) repeat-x 50% 100%;
+  height: 300px;
   padding-bottom: 50px;
 
   .header__inner {
@@ -36,18 +37,24 @@
   /* Larger than desktop */
   @media (min-width: 1000px) {
 
-    .navigation.menu--main {
-      position: static;
+    & {
+      padding-bottom: 0;
+      position: relative;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: 60;
       width: 100%;
     }
 
-    & {
-      position: fixed;
-      z-index: 60;
-      width: 100%;
+    .navigation.menu--main {
+      position: relative;
       top: 0;
       left: 0;
-      height: 250px;
+      bottom: 0;
+      right: 0;
+      width: 100%;
     }
 
     .block-system-branding-block {
@@ -60,19 +67,6 @@
       float: left;
     }
 
-  }
-
-}
-
-/* Larger than desktop */
-@media (min-width: 1000px) {
-
-  .toolbar-vertical .region-header {
-    top: 40px;
-  }
-
-  .toolbar-horizontal .region-header {
-    top: 40px;
   }
 
 }

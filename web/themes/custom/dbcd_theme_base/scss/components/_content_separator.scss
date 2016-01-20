@@ -1,0 +1,13 @@
+.region-content-separator {
+  clear: both;
+  border-top: 15px solid #00A7E3;
+  border-bottom: 15px solid #0094CA;
+  transform: skewY(-5deg);
+  margin-top: 4rem;
+}
+
+.content-separator__inner {
+  transform: skewY(5deg);
+  padding-top: 8rem;
+  padding-bottom: 2rem;
+}
