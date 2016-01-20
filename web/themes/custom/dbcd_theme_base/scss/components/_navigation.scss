@@ -5,8 +5,6 @@
     @extend .container;
   }
 
-  //
-
   .navigation--menu-toggle[type=checkbox] {
     display: none;
   }
@@ -193,9 +191,8 @@
     ul {
       width: 175px;
       right: 0;
-      margin: 0;
+      margin: 75px 0 0;
       left: auto;
-      margin-top: 75px;
       height: auto;
       padding-top: 10px;
       transition: opacity 0.5s, top 0s;
@@ -211,9 +208,8 @@
     }
 
     ul {
-      width: 75%;
-      top: 0;
-      opacity: 1;
+      position: static;
+      width: 100%;
       margin-top: 25px;
       padding: 0;
       background: none;
