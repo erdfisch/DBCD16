@@ -1,0 +1,27 @@
+uuid: e69f0b79-6142-4397-ac00-f8fe5e126a26
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_file
+    - paragraphs.paragraphs_type.file
+  module:
+    - file
+id: paragraph.file.field_file
+field_name: field_file
+entity_type: paragraph
+bundle: file
+label: File
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: ''
+  file_extensions: pdf
+  max_filesize: ''
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

@@ -23,6 +23,7 @@ settings:
     target_bundles:
       image_text: image_text
       images: images
+      file: file
       text: text
       text_image: text_image
     target_bundles_drag_drop:
@@ -30,6 +31,9 @@ settings:
         enabled: true
         weight: 7
       images:
+        enabled: true
+        weight: 8
+      file:
         enabled: true
         weight: 8
       nested_paragraph:
