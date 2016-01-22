@@ -26,9 +26,8 @@ display:
     position: 0
     display_options:
       access:
-        type: perm
-        options:
-          perm: 'access user profiles'
+        type: none
+        options: {  }
       cache:
         type: tag
         options: {  }
@@ -383,7 +382,6 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
-        - user.permissions
       tags:
         - 'config:field.storage.user.field_bio'
         - 'config:field.storage.user.field_twitter_account'
@@ -401,7 +399,6 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
-        - user.permissions
       tags:
         - 'config:field.storage.user.field_bio'
         - 'config:field.storage.user.field_twitter_account'
