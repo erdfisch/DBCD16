@@ -1,8 +1,12 @@
 .path-frontpage {
 
-  h1.page-title {
-    visibility: hidden;
-    height: 0;
+  .block-page-title-block {
+    margin-top: 0;
+
+    h1.page-title {
+      visibility: hidden;
+      height: 0;
+    }
   }
 
   .node__content {
@@ -97,7 +101,7 @@
     .node__content {
 
       h3 {
-        padding-top: 4rem;
+        padding-top: 3rem;
       }
 
       .paragraph--type--image-text {
