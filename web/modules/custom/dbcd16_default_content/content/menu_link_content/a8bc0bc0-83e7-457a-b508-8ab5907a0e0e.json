@@ -31,7 +31,11 @@
         {
             "uri": "https:\/\/www.eventbrite.de\/e\/drupal-business-community-days-heidelberg-2016-tickets-20015311335",
             "title": "",
-            "options": []
+            "options": {
+              "attributes": {
+                "target": "_blank"
+              }
+            }
         }
     ],
     "external": [
