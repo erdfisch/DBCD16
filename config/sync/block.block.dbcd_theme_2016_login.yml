@@ -9,7 +9,7 @@ dependencies:
 id: dbcd_theme_2016_login
 theme: dbcd_theme_2016
 region: '-1'
-weight: 0
+weight: -1
 provider: null
 plugin: user_login_block
 settings:

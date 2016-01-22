@@ -9,7 +9,7 @@ dependencies:
 id: dbcd_theme_2016_page_title
 theme: dbcd_theme_2016
 region: content
-weight: -9
+weight: -10
 provider: null
 plugin: page_title_block
 settings:

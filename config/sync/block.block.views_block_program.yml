@@ -1,6 +1,6 @@
 uuid: 0c614c46-1920-4505-a100-c12ef8a8d4b3
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - views.view.program
@@ -11,8 +11,8 @@ dependencies:
     - dbcd_theme_2016
 id: views_block_program
 theme: dbcd_theme_2016
-region: content
-weight: -8
+region: '-1'
+weight: -9
 provider: null
 plugin: 'views_block:program-block_3'
 settings:
