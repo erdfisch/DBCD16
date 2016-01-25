@@ -1,0 +1,18 @@
+uuid: c5a67982-e5bf-4420-a053-83469a91f9b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.user
+id: paragraph.user.changed
+field_name: changed
+entity_type: paragraph
+bundle: user
+label: Changed
+description: 'The time that the Paragraph was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

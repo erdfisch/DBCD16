@@ -1,0 +1,20 @@
+uuid: fa4f1633-6d1d-44bc-9b06-6e775f7bdb46
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.nested_paragraph
+id: paragraph.nested_paragraph.uid
+field_name: uid
+entity_type: paragraph
+bundle: nested_paragraph
+label: 'Authored by'
+description: 'The user ID of the paragraphs author.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\paragraphs\Entity\Paragraph::getCurrentUserId'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

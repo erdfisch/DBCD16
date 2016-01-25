@@ -1,0 +1,18 @@
+uuid: 401202ae-140c-4b8c-8b00-0df46c28c987
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.sponsor
+id: node.sponsor.changed
+field_name: changed
+entity_type: node
+bundle: sponsor
+label: Changed
+description: 'The time that the node was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

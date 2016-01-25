@@ -1,0 +1,16 @@
+uuid: 051b70f6-ca46-4684-9a00-af5b33c62a34
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.sponsor
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: node.sponsor
+target_entity_type_id: node
+target_bundle: sponsor
+default_langcode: site_default
+language_alterable: true
