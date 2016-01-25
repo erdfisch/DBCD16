@@ -1,13 +1,1 @@
-definitions:
-  contact__site_page:
-    enabled: true
-    menu_name: footer
-    parent: ''
-    weight: 0
-    expanded: false
-  standard__front_page:
-    enabled: false
-    weight: -50
-    expanded: false
-    menu_name: main
-    parent: ''
+definitions: {  }

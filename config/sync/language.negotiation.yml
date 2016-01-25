@@ -5,10 +5,8 @@ url:
   prefixes:
     en: ''
     de: de
-    fr: fr
     '': null
   domains:
     en: ''
     de: ''
-    fr: ''
 selected_langcode: site_default
