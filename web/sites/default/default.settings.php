@@ -702,11 +702,6 @@ $settings['container_yamls'][] = __DIR__ . '/services.yml';
  * example.org, with all subdomains included.
  */
 
-$config_directories = array(
-  CONFIG_ACTIVE_DIRECTORY => '../config/active',
-  CONFIG_SYNC_DIRECTORY => '../config/sync',
-);
-
 /**
  * Load local development override configuration, if available.
  *
