@@ -93,7 +93,56 @@ display:
           separator: ''
           hide_empty: false
           default_field_elements: true
-      fields: {  }
+      fields:
+        nothing:
+          id: nothing
+          table: views
+          field: nothing
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: true
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: false
+          plugin_id: custom
       filters:
         status:
           value: true
@@ -140,14 +189,11 @@ display:
     cache_metadata:
       max-age: -1
       contexts:
-        - 'languages:language_content'
         - 'languages:language_interface'
         - url.query_args
         - 'user.node_grants:view'
         - user.permissions
-      tags:
-        - 'config:field.storage.node.field_link'
-        - 'config:field.storage.node.field_logo'
+      tags: {  }
   attachment_1:
     display_plugin: attachment
     id: attachment_1
@@ -295,6 +341,7 @@ display:
         fields: false
         filters: false
         filter_groups: false
+        title: false
       filters:
         status:
           value: true
@@ -364,6 +411,7 @@ display:
         operator: AND
         groups:
           1: AND
+      title: Diamond
     cache_metadata:
       max-age: -1
       contexts:
@@ -522,6 +570,7 @@ display:
         fields: false
         filters: false
         filter_groups: false
+        title: false
       filters:
         status:
           value: true
@@ -591,6 +640,7 @@ display:
         operator: AND
         groups:
           1: AND
+      title: Gold
     cache_metadata:
       max-age: -1
       contexts:
@@ -749,6 +799,7 @@ display:
         fields: false
         filters: false
         filter_groups: false
+        title: false
       filters:
         status:
           value: true
@@ -818,6 +869,7 @@ display:
         operator: AND
         groups:
           1: AND
+      title: Silver
     cache_metadata:
       max-age: -1
       contexts:
@@ -976,6 +1028,7 @@ display:
         fields: false
         filters: false
         filter_groups: false
+        title: false
       filters:
         status:
           value: true
@@ -1045,6 +1098,7 @@ display:
         operator: AND
         groups:
           1: AND
+      title: Bronze
     cache_metadata:
       max-age: -1
       contexts:
@@ -1064,15 +1118,14 @@ display:
     display_options:
       display_extenders: {  }
       block_hide_empty: true
+      title: Sponsors
+      defaults:
+        title: false
     cache_metadata:
       max-age: -1
       contexts:
-        - 'languages:language_content'
         - 'languages:language_interface'
         - url.query_args
-        - user
         - 'user.node_grants:view'
         - user.permissions
-      tags:
-        - 'config:field.storage.node.field_link'
-        - 'config:field.storage.node.field_logo'
+      tags: {  }
