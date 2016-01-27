@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 name: sponsor_logo_diamond
-label: 'Diamond sponsor logo (940)'
+label: 'Diamond sponsor logo (940x940)'
 effects:
   429a087e-9da8-471d-8800-dba094596b17:
     uuid: 429a087e-9da8-471d-8800-dba094596b17
@@ -11,5 +11,5 @@ effects:
     weight: 1
     data:
       width: 940
-      height: null
+      height: 940
       upscale: false

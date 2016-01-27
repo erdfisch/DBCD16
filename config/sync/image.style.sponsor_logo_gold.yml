@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 name: sponsor_logo_gold
-label: 'Gold sponsor logo (460)'
+label: 'Gold sponsor logo (460x460)'
 effects:
   4316ce8d-af29-45ed-9201-1f7b98393153:
     uuid: 4316ce8d-af29-45ed-9201-1f7b98393153
@@ -11,5 +11,5 @@ effects:
     weight: 1
     data:
       width: 460
-      height: null
+      height: 460
       upscale: false
