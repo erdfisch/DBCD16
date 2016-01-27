@@ -1,0 +1,15 @@
+uuid: 20b068db-f3db-456f-8c00-ebbbe3a1cf12
+langcode: en
+status: true
+dependencies: {  }
+name: sponsor_logo_bronze
+label: 'Bronze sponsor logo (220)'
+effects:
+  433e1a10-3cc5-4e24-9804-4c7558b0771b:
+    uuid: 433e1a10-3cc5-4e24-9804-4c7558b0771b
+    id: image_scale
+    weight: 1
+    data:
+      width: 220
+      height: null
+      upscale: false

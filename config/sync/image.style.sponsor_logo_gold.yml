@@ -1,0 +1,15 @@
+uuid: f4a654c0-3d31-452f-8008-8a6ea216fe7e
+langcode: en
+status: true
+dependencies: {  }
+name: sponsor_logo_gold
+label: 'Gold sponsor logo (460)'
+effects:
+  4316ce8d-af29-45ed-9201-1f7b98393153:
+    uuid: 4316ce8d-af29-45ed-9201-1f7b98393153
+    id: image_scale
+    weight: 1
+    data:
+      width: 460
+      height: null
+      upscale: false
