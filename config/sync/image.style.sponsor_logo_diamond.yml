@@ -1,0 +1,15 @@
+uuid: b9fd8662-7bc1-4b5a-8d00-e9e6774e1b89
+langcode: en
+status: true
+dependencies: {  }
+name: sponsor_logo_diamond
+label: 'Diamond sponsor logo (940)'
+effects:
+  429a087e-9da8-471d-8800-dba094596b17:
+    uuid: 429a087e-9da8-471d-8800-dba094596b17
+    id: image_scale
+    weight: 1
+    data:
+      width: 940
+      height: null
+      upscale: false
