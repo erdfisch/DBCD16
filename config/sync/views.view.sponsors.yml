@@ -1172,6 +1172,7 @@ display:
         operator: AND
         groups:
           1: AND
+      block_hide_empty: true
     cache_metadata:
       max-age: -1
       contexts:
