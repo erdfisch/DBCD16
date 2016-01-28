@@ -8,8 +8,7 @@ web/themes/contrib
 web/profiles/contrib
 
 # Ignore active configuration
-config/active/**/*.yml
-config/active/.htaccess
+config/active
 
 # Ignore theme build tools
 web/themes/custom/dbcd_theme_base/bower_components
