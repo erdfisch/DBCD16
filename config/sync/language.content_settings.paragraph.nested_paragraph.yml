@@ -1,0 +1,16 @@
+uuid: e47d7e62-20fd-40d3-ae00-e7cc450f4f20
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.nested_paragraph
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+id: paragraph.nested_paragraph
+target_entity_type_id: paragraph
+target_bundle: nested_paragraph
+default_langcode: site_default
+language_alterable: true

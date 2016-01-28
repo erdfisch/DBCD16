@@ -6,6 +6,7 @@ dependencies:
     - field.storage.node.field_logo
     - node.type.sponsor
   module:
+    - content_translation
     - image
 third_party_settings:
   content_translation:

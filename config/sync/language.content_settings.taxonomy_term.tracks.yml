@@ -1,0 +1,16 @@
+uuid: 86dd47a6-25fa-466b-b900-a107f08ae3a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tracks
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+id: taxonomy_term.tracks
+target_entity_type_id: taxonomy_term
+target_bundle: tracks
+default_langcode: site_default
+language_alterable: false

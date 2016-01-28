@@ -1,0 +1,22 @@
+uuid: 81f2e6d9-f384-4fdb-8404-4f098eda338b
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.sponsor
+id: node.sponsor.sticky
+field_name: sticky
+entity_type: node
+bundle: sponsor
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

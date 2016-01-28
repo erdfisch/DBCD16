@@ -5,7 +5,6 @@ dependencies:
   config:
     - field.storage.user.user_picture
   module:
-    - content_translation
     - image
     - user
 id: user.user.user_picture
@@ -15,7 +14,7 @@ bundle: user
 label: Picture
 description: 'Your virtual face or picture.'
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

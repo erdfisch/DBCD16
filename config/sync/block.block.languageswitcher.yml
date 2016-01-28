@@ -1,0 +1,20 @@
+uuid: f7d6cb69-8482-4d9c-9705-5bd258e3711c
+langcode: de
+status: false
+dependencies:
+  module:
+    - language
+  theme:
+    - dbcd_theme_2016
+id: languageswitcher
+theme: dbcd_theme_2016
+region: '-1'
+weight: -10
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Language switcher'
+  provider: language
+  label_display: '0'
+visibility: {  }

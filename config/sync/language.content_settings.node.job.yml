@@ -1,0 +1,16 @@
+uuid: fcd7e973-2683-425a-b516-222e34618c47
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.job
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: node.job
+target_entity_type_id: node
+target_bundle: job
+default_langcode: current_interface
+language_alterable: true
