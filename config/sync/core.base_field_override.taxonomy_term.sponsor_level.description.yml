@@ -1,0 +1,20 @@
+uuid: f192e144-9c57-4e2d-9b00-aefa14479181
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.sponsor_level
+  module:
+    - text
+id: taxonomy_term.sponsor_level.description
+field_name: description
+entity_type: taxonomy_term
+bundle: sponsor_level
+label: Description
+description: 'A description of the term.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

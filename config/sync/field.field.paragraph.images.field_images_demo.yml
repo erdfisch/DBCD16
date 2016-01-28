@@ -6,7 +6,14 @@ dependencies:
     - field.storage.paragraph.field_images_demo
     - paragraphs.paragraphs_type.images
   module:
+    - content_translation
     - image
+third_party_settings:
+  content_translation:
+    translation_sync:
+      alt: alt
+      title: title
+      file: '0'
 id: paragraph.images.field_images_demo
 field_name: field_images_demo
 entity_type: paragraph
@@ -14,7 +21,7 @@ bundle: images
 label: Images
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

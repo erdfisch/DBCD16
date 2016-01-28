@@ -1,0 +1,18 @@
+uuid: 83446c55-6bc4-461a-a500-e7b30b1af87e
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.images
+id: paragraph.images.changed
+field_name: changed
+entity_type: paragraph
+bundle: images
+label: Changed
+description: 'The time that the Paragraph was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

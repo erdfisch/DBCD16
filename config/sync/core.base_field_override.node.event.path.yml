@@ -1,0 +1,20 @@
+uuid: 38a6e012-7c65-4de7-8700-b80fd5129f0c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.event
+  module:
+    - path
+id: node.event.path
+field_name: path
+entity_type: node
+bundle: event
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

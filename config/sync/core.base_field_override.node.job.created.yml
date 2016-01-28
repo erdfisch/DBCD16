@@ -1,0 +1,18 @@
+uuid: ded197f3-9f2d-4dc0-9d4b-7592db8b071e
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.job
+id: node.job.created
+field_name: created
+entity_type: node
+bundle: job
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

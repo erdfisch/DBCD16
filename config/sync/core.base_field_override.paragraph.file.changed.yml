@@ -1,0 +1,18 @@
+uuid: 26c5d3e1-a92e-40b7-8f0f-15098fba23be
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.file
+id: paragraph.file.changed
+field_name: changed
+entity_type: paragraph
+bundle: file
+label: Changed
+description: 'The time that the Paragraph was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed
