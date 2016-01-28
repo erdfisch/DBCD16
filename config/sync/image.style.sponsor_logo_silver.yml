@@ -3,13 +3,13 @@ langcode: en
 status: true
 dependencies: {  }
 name: sponsor_logo_silver
-label: 'Silver sponsor logo (300x300)'
+label: 'Silver sponsor logo (280x280)'
 effects:
   00dcc4f9-0ff6-49ce-a000-da0beb6cbfe2:
     uuid: 00dcc4f9-0ff6-49ce-a000-da0beb6cbfe2
     id: image_scale
     weight: 1
     data:
-      width: 300
-      height: 300
+      width: 280
+      height: 280
       upscale: false

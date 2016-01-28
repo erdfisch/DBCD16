@@ -1,6 +1,6 @@
 uuid: f7d6cb69-8482-4d9c-9705-5bd258e3711c
 langcode: de
-status: true
+status: false
 dependencies:
   module:
     - language
@@ -8,7 +8,7 @@ dependencies:
     - dbcd_theme_2016
 id: languageswitcher
 theme: dbcd_theme_2016
-region: content
+region: '-1'
 weight: -10
 provider: null
 plugin: 'language_block:language_interface'
