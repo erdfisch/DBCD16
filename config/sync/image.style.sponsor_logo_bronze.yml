@@ -3,13 +3,13 @@ langcode: en
 status: true
 dependencies: {  }
 name: sponsor_logo_bronze
-label: 'Bronze sponsor logo (140x140)'
+label: 'Bronze sponsor logo (120x120)'
 effects:
   433e1a10-3cc5-4e24-9804-4c7558b0771b:
     uuid: 433e1a10-3cc5-4e24-9804-4c7558b0771b
     id: image_scale
     weight: 1
     data:
-      width: 140
-      height: 140
+      width: 120
+      height: 120
       upscale: false
