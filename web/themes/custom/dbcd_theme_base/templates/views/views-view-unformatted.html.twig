@@ -16,7 +16,7 @@
  */
 #}
 
-{% if title %}
+{% if rows|render and title %}
     <h3>{{ title }}</h3>
 {% endif %}
 {% for row in rows %}

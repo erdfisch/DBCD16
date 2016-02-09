@@ -1,6 +1,6 @@
-uuid: 8ae4fdbb-8c14-449d-a900-e9f4cfe097dc
+uuid: d14256eb-06d6-43b5-8c00-d79e7450ec2f
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - views.view.sponsors
@@ -9,14 +9,14 @@ dependencies:
     - views
   theme:
     - dbcd_theme_2016
-id: views_block__sponsors_block_1
+id: views_block__sponsors_block_2
 theme: dbcd_theme_2016
-region: '-1'
-weight: -10
+region: content_lower
+weight: -11
 provider: null
-plugin: 'views_block:sponsors-block_1'
+plugin: 'views_block:sponsors-block_2'
 settings:
-  id: 'views_block:sponsors-block_1'
+  id: 'views_block:sponsors-block_2'
   label: ''
   provider: views
   label_display: visible
@@ -26,5 +26,5 @@ visibility:
   request_path:
     id: request_path
     pages: '<front>'
-    negate: true
+    negate: false
     context_mapping: {  }
