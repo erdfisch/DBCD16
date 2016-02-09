@@ -6,7 +6,10 @@
 
     a {
       display: inline-block;
-      padding: 20px;
+      // In theory this should be 20px to fully fill up the 960px width, but
+      // in some browsers (at least FF44/Linux) the elements break to a second
+      // line with that.
+      padding: 18px;
       vertical-align: middle;
       width: auto;
     }
