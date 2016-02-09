@@ -208,6 +208,7 @@ display:
       display_description: ''
       displays:
         block_1: block_1
+        block_2: block_2
       attachment_position: after
       fields:
         field_link:
@@ -501,6 +502,7 @@ display:
       display_description: ''
       displays:
         block_1: block_1
+        block_2: block_2
       attachment_position: after
       fields:
         field_link:
@@ -793,7 +795,7 @@ display:
       display_extenders: {  }
       display_description: ''
       displays:
-        block_1: block_1
+        block_2: block_2
       attachment_position: after
       fields:
         field_link:
@@ -1086,7 +1088,7 @@ display:
       display_extenders: {  }
       display_description: ''
       displays:
-        block_1: block_1
+        block_2: block_2
       attachment_position: after
       fields:
         field_link:
@@ -1381,6 +1383,27 @@ display:
       title: Sponsors
       defaults:
         title: false
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  block_2:
+    display_plugin: block
+    id: block_2
+    display_title: 'Frontpage block'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      block_hide_empty: true
+      title: Sponsors
+      defaults:
+        title: false
+      display_description: ''
+      block_description: ''
     cache_metadata:
       max-age: -1
       contexts:
