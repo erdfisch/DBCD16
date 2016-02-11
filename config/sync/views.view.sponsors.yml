@@ -9,8 +9,10 @@ dependencies:
     - node.type.sponsor
     - taxonomy.vocabulary.sponsor_level
   content:
+    - 'taxonomy_term:sponsor_level:4b1997b3-8793-4ddc-bc00-baaf4689fbab'
     - 'taxonomy_term:sponsor_level:4e0ff665-055b-4802-9701-1c21dfe98a88'
     - 'taxonomy_term:sponsor_level:6fbe4d8c-c460-4c82-b800-bf24bd5798b7'
+    - 'taxonomy_term:sponsor_level:a59a9f83-d793-40c3-a501-1d49c25d7003'
     - 'taxonomy_term:sponsor_level:ba109d0a-c701-48cd-8200-ac12c14c0ee0'
     - 'taxonomy_term:sponsor_level:f1e33d4e-b43c-47e2-a82f-473ff67b6540'
   module:
@@ -1994,9 +1996,26 @@ display:
     display_options:
       display_extenders: {  }
       block_hide_empty: true
-      title: Sponsors
+      title: 'Our sponsors'
       defaults:
         title: false
+        header: false
+      display_description: ''
+      block_description: ''
+      header:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          tokenize: false
+          content:
+            value: 'We sincerely thank our sponsors, which make the Drupal Business and Community Days in Heidelberg possible in the first place!'
+            format: basic_html
+          plugin_id: text
     cache_metadata:
       max-age: -1
       contexts:
@@ -2013,11 +2032,26 @@ display:
     display_options:
       display_extenders: {  }
       block_hide_empty: true
-      title: Sponsors
+      title: 'Our sponsors'
       defaults:
         title: false
+        header: false
       display_description: ''
       block_description: ''
+      header:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          tokenize: false
+          content:
+            value: 'We sincerely thank our sponsors, which make the Drupal Business and Community Days in Heidelberg possible in the first place!'
+            format: basic_html
+          plugin_id: text
     cache_metadata:
       max-age: -1
       contexts:

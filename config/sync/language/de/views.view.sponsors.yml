@@ -1,0 +1,80 @@
+label: Sponsoren
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Anwenden
+          reset_button_label: Zurücksetzen
+          exposed_sorts_label: 'Sortieren nach'
+          sort_asc_label: Aufsteigend
+          sort_desc_label: Absteigend
+      filters:
+        field_sponsor_level_target_id:
+          group_info:
+            default_group: Alle
+  attachment_1:
+    display_title: 'Diamantsponsoren'
+    display_options:
+      filters:
+        field_sponsor_level_target_id:
+          group_info:
+            default_group: Alle
+      title: Diamant
+  attachment_2:
+    display_title: 'Goldsponsoren'
+    display_options:
+      filters:
+        field_sponsor_level_target_id:
+          group_info:
+            default_group: Alle
+      title: Gold
+  attachment_3:
+    display_title: 'Silbersponsoren'
+    display_options:
+      filters:
+        field_sponsor_level_target_id:
+          group_info:
+            default_group: Alle
+      title: Silber
+  attachment_4:
+    display_title: 'Bronzesponsoren'
+    display_options:
+      filters:
+        field_sponsor_level_target_id:
+          group_info:
+            default_group: Alle
+      title: Bronze
+  attachment_5:
+    display_title: 'Kaffeepausesponsoren'
+    display_options:
+      filters:
+        field_sponsor_level_target_id:
+          group_info:
+            default_group: Alle
+      title: Kaffeepause
+  attachment_6:
+    display_title: 'Medienpartnersponsoren'
+    display_options:
+      filters:
+        field_sponsor_level_target_id:
+          group_info:
+            default_group: Alle
+      title: Medienpartner
+  block_1:
+    display_options:
+      title: 'Unsere Sponsoren'
+      header:
+        area:
+          content:
+            value: 'Wir bedanken uns recht herzlich bei allen Sponsoren, die die Drupal Business and Community Days in Heidelberg möglich machen!'
+            format: basic_html
+  block_2:
+    display_title: 'Startseiten-Block'
+    display_options:
+      title: 'Unsere Sponsoren'
+      header:
+        area:
+          content:
+            value: 'Wir bedanken uns recht herzlich bei allen Sponsoren, die die Drupal Business and Community Days in Heidelberg möglich machen!'
+            format: basic_html
