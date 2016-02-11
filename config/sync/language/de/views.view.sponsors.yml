@@ -9,10 +9,6 @@ display:
           exposed_sorts_label: 'Sortieren nach'
           sort_asc_label: Aufsteigend
           sort_desc_label: Absteigend
-      filters:
-        field_sponsor_level_target_id:
-          group_info:
-            default_group: Alle
   attachment_1:
     display_title: 'Diamantsponsoren'
     display_options:
@@ -63,6 +59,10 @@ display:
       title: Medienpartner
   block_1:
     display_options:
+      filters:
+        field_sponsor_level_target_id:
+          group_info:
+            default_group: Alle
       title: 'Unsere Sponsoren'
       header:
         area:
