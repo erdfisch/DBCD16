@@ -1,0 +1,15 @@
+uuid: da190c89-ec0a-450b-9207-7ce8c23c6263
+langcode: en
+status: true
+dependencies: {  }
+name: sponsor_logo_coffee_break
+label: 'Coffee break sponsor logo (120x120)'
+effects:
+  ef1cc8b1-5481-4b77-ae2f-47c1311ce023:
+    uuid: ef1cc8b1-5481-4b77-ae2f-47c1311ce023
+    id: image_scale
+    weight: 1
+    data:
+      width: 120
+      height: 120
+      upscale: false
