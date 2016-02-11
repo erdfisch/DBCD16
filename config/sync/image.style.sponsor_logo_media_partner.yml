@@ -1,0 +1,15 @@
+uuid: 7c73899b-7e5f-4c70-a801-1bf14b3a9a19
+langcode: en
+status: true
+dependencies: {  }
+name: sponsor_logo_media_partner
+label: 'Media partner sponsor logo (120x120)'
+effects:
+  20188281-28a1-4d78-865e-94250c288a89:
+    uuid: 20188281-28a1-4d78-865e-94250c288a89
+    id: image_scale
+    weight: 1
+    data:
+      width: 120
+      height: 120
+      upscale: false
