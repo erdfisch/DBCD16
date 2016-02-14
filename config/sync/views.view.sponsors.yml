@@ -2035,7 +2035,7 @@ display:
           empty: false
           tokenize: false
           content:
-            value: 'We sincerely thank our sponsors, which make the Drupal Business and Community Days in Heidelberg possible in the first place!'
+            value: 'We would like to thank all of our great sponsors, who are helping to make Drupal Business and Community Days 2016 in Heidelberg a reality!'
             format: basic_html
           plugin_id: text
     cache_metadata:
