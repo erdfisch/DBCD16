@@ -1,0 +1,11 @@
+#block-languageswitcher {
+  ul {
+    float: right;
+  }
+  li {
+    display: inline-block;
+    font-weight: bold;
+    list-style: none;
+    padding-right: 10px;
+  }
+}

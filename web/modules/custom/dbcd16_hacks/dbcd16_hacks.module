@@ -33,3 +33,9 @@ function dbcd16_hacks_field_widget_form_alter(&$element, FormStateInterface $for
   }
 
 }
+
+function dbcd16_hacks_language_switch_links_alter(array &$links, $type, $path) {
+  foreach($links as $key => $link) {
+    $links[$key]['title'] = strtoupper($key);
+  }
+}
