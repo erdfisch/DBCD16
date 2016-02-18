@@ -10,7 +10,7 @@ display:
           sort_asc_label: Aufsteigend
           sort_desc_label: Absteigend
   attachment_1:
-    display_title: 'Diamantsponsoren'
+    display_title: Diamantsponsoren
     display_options:
       filters:
         field_sponsor_level_target_id:
@@ -18,7 +18,7 @@ display:
             default_group: Alle
       title: Diamant
   attachment_2:
-    display_title: 'Goldsponsoren'
+    display_title: Goldsponsoren
     display_options:
       filters:
         field_sponsor_level_target_id:
@@ -26,7 +26,7 @@ display:
             default_group: Alle
       title: Gold
   attachment_3:
-    display_title: 'Silbersponsoren'
+    display_title: Silbersponsoren
     display_options:
       filters:
         field_sponsor_level_target_id:
@@ -34,7 +34,7 @@ display:
             default_group: Alle
       title: Silber
   attachment_4:
-    display_title: 'Bronzesponsoren'
+    display_title: Bronzesponsoren
     display_options:
       filters:
         field_sponsor_level_target_id:
@@ -42,7 +42,7 @@ display:
             default_group: Alle
       title: Bronze
   attachment_5:
-    display_title: 'Kaffeepausesponsoren'
+    display_title: Kaffeepausesponsoren
     display_options:
       filters:
         field_sponsor_level_target_id:
@@ -50,7 +50,7 @@ display:
             default_group: Alle
       title: Kaffeepause
   attachment_6:
-    display_title: 'Medienpartnersponsoren'
+    display_title: Medienpartnersponsoren
     display_options:
       filters:
         field_sponsor_level_target_id:
@@ -70,7 +70,7 @@ display:
             value: 'Wir bedanken uns recht herzlich bei allen Sponsoren, die die Drupal Business and Community Days in Heidelberg möglich machen!'
             format: basic_html
   block_2:
-    display_title: 'Startseiten-Block'
+    display_title: Startseiten-Block
     display_options:
       title: 'Unsere Sponsoren'
       header:
