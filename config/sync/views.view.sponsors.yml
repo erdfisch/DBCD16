@@ -9,8 +9,10 @@ dependencies:
     - node.type.sponsor
     - taxonomy.vocabulary.sponsor_level
   content:
+    - 'taxonomy_term:sponsor_level:4b1997b3-8793-4ddc-bc00-baaf4689fbab'
     - 'taxonomy_term:sponsor_level:4e0ff665-055b-4802-9701-1c21dfe98a88'
     - 'taxonomy_term:sponsor_level:6fbe4d8c-c460-4c82-b800-bf24bd5798b7'
+    - 'taxonomy_term:sponsor_level:a59a9f83-d793-40c3-a501-1d49c25d7003'
     - 'taxonomy_term:sponsor_level:ba109d0a-c701-48cd-8200-ac12c14c0ee0'
     - 'taxonomy_term:sponsor_level:f1e33d4e-b43c-47e2-a82f-473ff67b6540'
   module:
@@ -151,51 +153,6 @@ display:
           entity_type: node
           entity_field: type
           plugin_id: bundle
-        field_sponsor_level_target_id:
-          id: field_sponsor_level_target_id
-          table: node__field_sponsor_level
-          field: field_sponsor_level_target_id
-          relationship: none
-          group_type: group
-          admin_label: ''
-          operator: or
-          value:
-            4: 4
-            8: 8
-          group: 1
-          exposed: false
-          expose:
-            operator_id: ''
-            label: ''
-            description: ''
-            use_operator: false
-            operator: ''
-            identifier: ''
-            required: false
-            remember: false
-            multiple: false
-            remember_roles:
-              authenticated: authenticated
-            reduce: false
-          is_grouped: false
-          group_info:
-            label: ''
-            description: ''
-            identifier: ''
-            optional: true
-            widget: select
-            multiple: false
-            remember: false
-            default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
-          reduce_duplicates: false
-          type: select
-          limit: true
-          vid: sponsor_level
-          hierarchy: false
-          error_message: true
-          plugin_id: taxonomy_index_tid
       sorts:
         created:
           id: created
@@ -1994,9 +1951,93 @@ display:
     display_options:
       display_extenders: {  }
       block_hide_empty: true
-      title: Sponsors
+      filters:
+        status:
+          value: true
+          table: node_field_data
+          field: status
+          plugin_id: boolean
+          entity_type: node
+          entity_field: status
+          id: status
+          expose:
+            operator: ''
+          group: 1
+        type:
+          id: type
+          table: node_field_data
+          field: type
+          value:
+            sponsor: sponsor
+          entity_type: node
+          entity_field: type
+          plugin_id: bundle
+        field_sponsor_level_target_id:
+          id: field_sponsor_level_target_id
+          table: node__field_sponsor_level
+          field: field_sponsor_level_target_id
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: or
+          value:
+            4: 4
+            8: 8
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+          type: select
+          limit: true
+          vid: sponsor_level
+          hierarchy: false
+          error_message: true
+          plugin_id: taxonomy_index_tid
+      title: 'Our sponsors'
       defaults:
+        filters: false
         title: false
+        header: false
+      display_description: ''
+      block_description: ''
+      header:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          tokenize: false
+          content:
+            value: 'We would like to thank all of our great sponsors, who are helping to make Drupal Business and Community Days 2016 in Heidelberg a reality!'
+            format: basic_html
+          plugin_id: text
     cache_metadata:
       max-age: -1
       contexts:
@@ -2013,11 +2054,26 @@ display:
     display_options:
       display_extenders: {  }
       block_hide_empty: true
-      title: Sponsors
+      title: 'Our sponsors'
       defaults:
         title: false
+        header: false
       display_description: ''
       block_description: ''
+      header:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          tokenize: false
+          content:
+            value: 'We sincerely thank our sponsors, which make the Drupal Business and Community Days in Heidelberg possible in the first place!'
+            format: basic_html
+          plugin_id: text
     cache_metadata:
       max-age: -1
       contexts:
