@@ -7,7 +7,7 @@ dependencies:
 id: dbcd_theme_2016_local_actions
 theme: dbcd_theme_2016
 region: '-1'
-weight: -5
+weight: -7
 provider: null
 plugin: local_actions_block
 settings:
