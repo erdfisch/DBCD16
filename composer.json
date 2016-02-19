@@ -51,7 +51,8 @@
         },
         "patches": {
             "drupal/paragraphs": {
-                "Fix content translation source not being set": "https://www.drupal.org/files/issues/2597201-4.patch"
+                "EntityChangedConstraintValidator leaves node entity un-saveable": "https://www.drupal.org/files/issues/paragraphs-EntityChangedConstraintValidator-FixAndTest-2631590-16.patch",
+                "Fix content translation source not being set": "https://www.drupal.org/files/issues/2597201-11--vs-2631590-16--do-not-test.patch"
             }
         }
     },
