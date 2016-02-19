@@ -11,9 +11,9 @@ dependencies:
 third_party_settings:
   content_translation:
     translation_sync:
-      alt: alt
-      title: title
       file: '0'
+      alt: '0'
+      title: '0'
 id: paragraph.image_text.field_image_demo
 field_name: field_image_demo
 entity_type: paragraph
@@ -21,7 +21,7 @@ bundle: image_text
 label: Image
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
