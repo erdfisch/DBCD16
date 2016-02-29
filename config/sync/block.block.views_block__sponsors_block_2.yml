@@ -12,7 +12,7 @@ dependencies:
 id: views_block__sponsors_block_2
 theme: dbcd_theme_2016
 region: content_lower
-weight: -11
+weight: -10
 provider: null
 plugin: 'views_block:sponsors-block_2'
 settings:
