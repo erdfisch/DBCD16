@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - field.field.node.speaker.body
-    - field.field.node.speaker.field_speaker_name
     - field.field.node.speaker.field_speaker_photo
     - field.field.node.speaker.field_speaker_webaddress
     - node.type.speaker
@@ -24,13 +23,6 @@ content:
     weight: 101
     settings: {  }
     third_party_settings: {  }
-  field_speaker_name:
-    weight: 103
-    label: above
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    type: string
   field_speaker_photo:
     weight: 102
     label: above

@@ -1,18 +1,17 @@
-uuid: e5eafe8e-5784-4206-8d58-880301a47abc
+uuid: c50026fc-ff82-4f21-be00-f391a75bb247
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_speaker_name
     - node.type.speaker
-id: node.speaker.field_speaker_name
-field_name: field_speaker_name
+id: node.speaker.title
+field_name: title
 entity_type: node
 bundle: speaker
 label: 'Speaker Name'
 description: ''
-required: false
-translatable: false
+required: true
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }
