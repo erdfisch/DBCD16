@@ -27,7 +27,7 @@ content:
     weight: 102
     label: above
     settings:
-      image_style: ''
+      image_style: large
       image_link: ''
     third_party_settings: {  }
     type: image
@@ -44,5 +44,7 @@ content:
     type: link
   links:
     weight: 100
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   langcode: true
