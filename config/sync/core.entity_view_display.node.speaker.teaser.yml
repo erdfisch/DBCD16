@@ -5,6 +5,8 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.speaker.body
+    - field.field.node.speaker.field_speaker_photo
+    - field.field.node.speaker.field_speaker_webaddress
     - node.type.speaker
   module:
     - text
@@ -24,4 +26,6 @@ content:
   links:
     weight: 100
 hidden:
+  field_speaker_photo: true
+  field_speaker_webaddress: true
   langcode: true
