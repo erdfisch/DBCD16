@@ -1,0 +1,23 @@
+uuid: b7e66c13-45b6-4785-9905-5d46ef10f24f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_speaker_webaddress
+    - node.type.speaker
+  module:
+    - link
+id: node.speaker.field_speaker_webaddress
+field_name: field_speaker_webaddress
+entity_type: node
+bundle: speaker
+label: 'Speaker Webadresse'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

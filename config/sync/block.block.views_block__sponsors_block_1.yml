@@ -1,6 +1,6 @@
 uuid: 8ae4fdbb-8c14-449d-a900-e9f4cfe097dc
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - views.view.sponsors
@@ -11,8 +11,8 @@ dependencies:
     - dbcd_theme_2016
 id: views_block__sponsors_block_1
 theme: dbcd_theme_2016
-region: '-1'
-weight: -10
+region: content_lower
+weight: -9
 provider: null
 plugin: 'views_block:sponsors-block_1'
 settings:

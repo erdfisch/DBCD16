@@ -1,39 +1,39 @@
-uuid: d40e5800-b640-4ca6-b300-a94c1854a3af
+uuid: 9915daf3-a2d5-4642-b500-d74d0e849e7b
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_image_demo
-    - paragraphs.paragraphs_type.image_text
+    - field.storage.node.field_image_image
+    - node.type.image
   module:
     - content_translation
     - image
 third_party_settings:
   content_translation:
     translation_sync:
+      alt: alt
+      title: title
       file: '0'
-      alt: '0'
-      title: '0'
-id: paragraph.image_text.field_image_demo
-field_name: field_image_demo
-entity_type: paragraph
-bundle: image_text
+id: node.image.field_image_image
+field_name: field_image_image
+entity_type: node
+bundle: image
 label: Image
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
-  file_directory: ''
+  file_directory: '[date:custom:Y]-[date:custom:m]'
   file_extensions: 'png gif jpg jpeg'
   max_filesize: ''
   max_resolution: ''
   min_resolution: ''
-  alt_field: false
-  alt_field_required: false
-  title_field: false
-  title_field_required: false
+  alt_field: true
+  alt_field_required: true
+  title_field: true
+  title_field_required: true
   default_image:
     uuid: ''
     alt: ''
