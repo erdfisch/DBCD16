@@ -1,0 +1,19 @@
+uuid: e5eafe8e-5784-4206-8d58-880301a47abc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_speaker_name
+    - node.type.speaker
+id: node.speaker.field_speaker_name
+field_name: field_speaker_name
+entity_type: node
+bundle: speaker
+label: 'Speaker Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,22 @@
+uuid: f49ef514-0a41-4611-b649-732309c711cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.speaker
+  module:
+    - text
+id: node.speaker.body
+field_name: body
+entity_type: node
+bundle: speaker
+label: 'Speaker Kurzinformation'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
