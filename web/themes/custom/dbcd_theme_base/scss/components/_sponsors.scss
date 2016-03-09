@@ -49,5 +49,15 @@
   a.sponsor-rasberry {
     width: 12.5%;
   }
+}
+ .path-sponsors .view-sponsors .view-content {
+  a {
+    display: block;
+  }
+}
 
+.path-frontpage {
+  .view-sponsors .description {
+    display: none;
+  }
 }

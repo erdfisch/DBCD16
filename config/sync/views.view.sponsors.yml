@@ -6,6 +6,7 @@ dependencies:
     - field.storage.node.field_link
     - field.storage.node.field_logo
     - field.storage.node.field_sponsor_level
+    - field.storage.node.field_sponsors_description
     - node.type.sponsor
     - taxonomy.vocabulary.sponsor_level
   content:
@@ -20,9 +21,10 @@ dependencies:
     - link
     - node
     - taxonomy
+    - text
     - user
 id: sponsors
-label: Sponsors
+label: Sponsoren
 module: views
 description: ''
 tag: ''
@@ -54,13 +56,13 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Apply
+          submit_button: Anwenden
           reset_button: false
-          reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
+          reset_button_label: Zurücksetzen
+          exposed_sorts_label: 'Sortieren nach'
           expose_sort_order: true
-          sort_asc_label: Asc
-          sort_desc_label: Desc
+          sort_asc_label: Aufsteigend
+          sort_desc_label: Absteigend
       pager:
         type: none
         options:
@@ -179,14 +181,13 @@ display:
       max-age: -1
       contexts:
         - 'languages:language_interface'
-        - user
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
   attachment_1:
     display_plugin: attachment
     id: attachment_1
-    display_title: 'Diamond sponsors'
+    display_title: Diamantsponsoren
     position: 2
     display_options:
       display_extenders: {  }
@@ -390,6 +391,68 @@ display:
           separator: ', '
           field_api_classes: false
           plugin_id: field
+        field_sponsors_description:
+          id: field_sponsors_description
+          table: node__field_sponsors_description
+          field: field_sponsors_description
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: div
+          element_class: description
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: text_default
+          settings: {  }
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
       defaults:
         fields: false
         filters: false
@@ -450,7 +513,7 @@ display:
             widget: select
             multiple: false
             remember: false
-            default_group: All
+            default_group: Alle
             default_group_multiple: {  }
             group_items: {  }
           reduce_duplicates: false
@@ -464,7 +527,7 @@ display:
         operator: AND
         groups:
           1: AND
-      title: Diamond
+      title: Diamant
     cache_metadata:
       max-age: -1
       contexts:
@@ -477,10 +540,11 @@ display:
         - 'config:field.storage.node.field_link'
         - 'config:field.storage.node.field_logo'
         - 'config:field.storage.node.field_sponsor_level'
+        - 'config:field.storage.node.field_sponsors_description'
   attachment_2:
     display_plugin: attachment
     id: attachment_2
-    display_title: 'Gold sponsors'
+    display_title: Goldsponsoren
     position: 3
     display_options:
       display_extenders: {  }
@@ -684,6 +748,68 @@ display:
           separator: ', '
           field_api_classes: false
           plugin_id: field
+        field_sponsors_description:
+          id: field_sponsors_description
+          table: node__field_sponsors_description
+          field: field_sponsors_description
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: div
+          element_class: description
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: text_default
+          settings: {  }
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
       defaults:
         fields: false
         filters: false
@@ -744,7 +870,7 @@ display:
             widget: select
             multiple: false
             remember: false
-            default_group: All
+            default_group: Alle
             default_group_multiple: {  }
             group_items: {  }
           reduce_duplicates: false
@@ -771,10 +897,11 @@ display:
         - 'config:field.storage.node.field_link'
         - 'config:field.storage.node.field_logo'
         - 'config:field.storage.node.field_sponsor_level'
+        - 'config:field.storage.node.field_sponsors_description'
   attachment_3:
     display_plugin: attachment
     id: attachment_3
-    display_title: 'Silver sponsors'
+    display_title: Silbersponsoren
     position: 4
     display_options:
       display_extenders: {  }
@@ -977,6 +1104,68 @@ display:
           separator: ', '
           field_api_classes: false
           plugin_id: field
+        field_sponsors_description:
+          id: field_sponsors_description
+          table: node__field_sponsors_description
+          field: field_sponsors_description
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: div
+          element_class: description
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: text_default
+          settings: {  }
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
       defaults:
         fields: false
         filters: false
@@ -1037,7 +1226,7 @@ display:
             widget: select
             multiple: false
             remember: false
-            default_group: All
+            default_group: Alle
             default_group_multiple: {  }
             group_items: {  }
           reduce_duplicates: false
@@ -1051,7 +1240,7 @@ display:
         operator: AND
         groups:
           1: AND
-      title: Silver
+      title: Silber
     cache_metadata:
       max-age: -1
       contexts:
@@ -1064,10 +1253,11 @@ display:
         - 'config:field.storage.node.field_link'
         - 'config:field.storage.node.field_logo'
         - 'config:field.storage.node.field_sponsor_level'
+        - 'config:field.storage.node.field_sponsors_description'
   attachment_4:
     display_plugin: attachment
     id: attachment_4
-    display_title: 'Bronze sponsors'
+    display_title: Bronzesponsoren
     position: 5
     display_options:
       display_extenders: {  }
@@ -1330,7 +1520,7 @@ display:
             widget: select
             multiple: false
             remember: false
-            default_group: All
+            default_group: Alle
             default_group_multiple: {  }
             group_items: {  }
           reduce_duplicates: false
@@ -1360,7 +1550,7 @@ display:
   attachment_5:
     display_plugin: attachment
     id: attachment_5
-    display_title: 'Coffee break sponsors'
+    display_title: Kaffeepausesponsoren
     position: 6
     display_options:
       display_extenders: {  }
@@ -1623,7 +1813,7 @@ display:
             widget: select
             multiple: false
             remember: false
-            default_group: All
+            default_group: Alle
             default_group_multiple: {  }
             group_items: {  }
           reduce_duplicates: false
@@ -1637,7 +1827,7 @@ display:
         operator: AND
         groups:
           1: AND
-      title: 'Coffee break'
+      title: Kaffeepause
     cache_metadata:
       max-age: -1
       contexts:
@@ -1653,7 +1843,7 @@ display:
   attachment_6:
     display_plugin: attachment
     id: attachment_6
-    display_title: 'Media partner sponsors'
+    display_title: Medienpartnersponsoren
     position: 7
     display_options:
       display_extenders: {  }
@@ -1916,7 +2106,7 @@ display:
             widget: select
             multiple: false
             remember: false
-            default_group: All
+            default_group: Alle
             default_group_multiple: {  }
             group_items: {  }
           reduce_duplicates: false
@@ -1930,7 +2120,7 @@ display:
         operator: AND
         groups:
           1: AND
-      title: 'Media partner'
+      title: Medienpartner
     cache_metadata:
       max-age: -1
       contexts:
@@ -2007,7 +2197,7 @@ display:
             widget: select
             multiple: false
             remember: false
-            default_group: All
+            default_group: Alle
             default_group_multiple: {  }
             group_items: {  }
           reduce_duplicates: false
@@ -2017,7 +2207,7 @@ display:
           hierarchy: false
           error_message: true
           plugin_id: taxonomy_index_tid
-      title: 'Our sponsors'
+      title: 'Unsere Sponsoren'
       defaults:
         filters: false
         title: false
@@ -2035,7 +2225,7 @@ display:
           empty: false
           tokenize: false
           content:
-            value: 'We would like to thank all of our great sponsors, who are helping to make Drupal Business and Community Days 2016 in Heidelberg a reality!'
+            value: 'Wir bedanken uns recht herzlich bei allen Sponsoren, die die Drupal Business and Community Days in Heidelberg möglich machen!'
             format: basic_html
           plugin_id: text
     cache_metadata:
@@ -2049,12 +2239,12 @@ display:
   block_2:
     display_plugin: block
     id: block_2
-    display_title: 'Frontpage block'
+    display_title: Startseiten-Block
     position: 1
     display_options:
       display_extenders: {  }
       block_hide_empty: true
-      title: 'Our sponsors'
+      title: 'Unsere Sponsoren'
       defaults:
         title: false
         header: false
@@ -2071,14 +2261,13 @@ display:
           empty: false
           tokenize: false
           content:
-            value: 'We sincerely thank our sponsors, which make the Drupal Business and Community Days in Heidelberg possible in the first place!'
+            value: 'Wir bedanken uns recht herzlich bei allen Sponsoren, die die Drupal Business and Community Days in Heidelberg möglich machen!'
             format: basic_html
           plugin_id: text
     cache_metadata:
       max-age: -1
       contexts:
         - 'languages:language_interface'
-        - user
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
