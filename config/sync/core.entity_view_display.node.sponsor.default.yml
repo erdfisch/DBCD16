@@ -6,10 +6,12 @@ dependencies:
     - field.field.node.sponsor.field_link
     - field.field.node.sponsor.field_logo
     - field.field.node.sponsor.field_sponsor_level
+    - field.field.node.sponsor.field_sponsors_description
     - node.type.sponsor
   module:
     - image
     - link
+    - text
     - user
 id: node.sponsor.default
 targetEntityType: node
@@ -42,6 +44,12 @@ content:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
+  field_sponsors_description:
+    weight: 105
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
   links:
     weight: 100
 hidden:
