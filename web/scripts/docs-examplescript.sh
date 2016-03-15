@@ -1,4 +1,4 @@
-#!/home/michael/.composer/vendor/bin/drush
+#!/usr/bin/drush
 
 use \Drupal\user\Entity\User;
 
