@@ -31,3 +31,5 @@ web/sites/default/services.yml
 drushrc.php
 drush/site-aliases
 
+# Ignore backups
+backup

@@ -1,16 +1,16 @@
-uuid: 6176ccf3-78a3-4573-8e00-eb182bcfe11b
+uuid: 95b21a6c-491e-4240-8c57-87149bc7065d
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_speaker_photo
-    - node.type.speaker
+    - core.entity_view_mode.node.full
+    - node.type.session
   module:
-    - image
+    - datetime
     - node
     - user
-id: speaker
-label: Speaker
+id: sessions
+label: Sessions
 module: views
 description: ''
 tag: ''
@@ -55,79 +55,12 @@ display:
           items_per_page: 0
           offset: 0
       style:
-        type: grid
+        type: default
       row:
-        type: fields
+        type: 'entity:node'
         options:
-          default_field_elements: true
-          inline: {  }
-          separator: ''
-          hide_empty: false
+          view_mode: full
       fields:
-        field_speaker_photo:
-          id: field_speaker_photo
-          table: node__field_speaker_photo
-          field: field_speaker_photo
-          relationship: none
-          group_type: group
-          admin_label: ''
-          label: ''
-          exclude: false
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: false
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          click_sort_column: target_id
-          type: image
-          settings:
-            image_style: medium
-            image_link: content
-          group_column: ''
-          group_columns: {  }
-          group_rows: true
-          delta_limit: 0
-          delta_offset: 0
-          delta_reversed: false
-          delta_first_last: false
-          multi_type: separator
-          separator: ', '
-          field_api_classes: false
-          plugin_id: field
         title:
           id: title
           table: node_field_data
@@ -192,26 +125,39 @@ display:
           table: node_field_data
           field: type
           value:
-            speaker: speaker
+            session: session
           entity_type: node
           entity_field: type
           plugin_id: bundle
       sorts:
+        field_date_value:
+          id: field_date_value
+          table: node__field_date
+          field: field_date_value
+          relationship: none
+          group_type: group
+          admin_label: ''
+          order: ASC
+          exposed: false
+          expose:
+            label: ''
+          granularity: minute
+          plugin_id: datetime
         title:
           id: title
           table: node_field_data
           field: title
-          order: DESC
-          entity_type: node
-          entity_field: title
-          plugin_id: standard
           relationship: none
           group_type: group
           admin_label: ''
+          order: ASC
           exposed: false
           expose:
             label: ''
-      title: Speaker
+          entity_type: node
+          entity_field: title
+          plugin_id: standard
+      title: Sessions
       header: {  }
       footer: {  }
       empty: {  }
@@ -225,8 +171,7 @@ display:
         - 'languages:language_interface'
         - 'user.node_grants:view'
         - user.permissions
-      tags:
-        - 'config:field.storage.node.field_speaker_photo'
+      tags: {  }
   block_1:
     display_plugin: block
     id: block_1
@@ -241,5 +186,4 @@ display:
         - 'languages:language_interface'
         - 'user.node_grants:view'
         - user.permissions
-      tags:
-        - 'config:field.storage.node.field_speaker_photo'
+      tags: {  }

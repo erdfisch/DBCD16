@@ -1,30 +1,30 @@
-uuid: ee8546ea-9f8c-49c3-8629-4199e27bfd0a
+uuid: b6672791-9077-441d-af00-eb6e80b22b13
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.news
+    - views.view.sessions
   module:
     - system
     - views
   theme:
     - dbcd_theme_2016
-id: views_block__news
+id: views_block__sessions_block_1
 theme: dbcd_theme_2016
 region: content
-weight: -6
+weight: null
 provider: null
-plugin: 'views_block:news-block_1'
+plugin: 'views_block:sessions-block_1'
 settings:
-  id: 'views_block:news-block_1'
+  id: 'views_block:sessions-block_1'
   label: ''
   provider: views
   label_display: '0'
   views_label: ''
-  items_per_page: '40'
+  items_per_page: none
 visibility:
   request_path:
     id: request_path
-    pages: /news
+    pages: /sessions
     negate: false
     context_mapping: {  }
