@@ -1,0 +1,66 @@
+.path-sessions {
+
+  .block-views .view-sessions {
+
+    .view-content .text-formatted {
+      text-align: justify;
+    }
+
+    .views-row {
+      width: auto;
+      display: inline-block;
+      transform: skewY(-5deg);
+      margin-bottom: 2rem;
+      vertical-align: top;
+      padding: 5rem 2rem 5rem;
+      // 960 / 2 - 40
+      max-width: 440px;
+    }
+
+    .views-row:hover {
+      background: #e5e5e5;
+    }
+
+    .views-row > * {
+      transform: skewY(5deg);
+    }
+
+    .views-field {
+      margin-bottom: .5rem;
+    }
+
+    .views-field-user-picture {
+      .field-content {
+        width: 183px;
+        height: 183px;
+        transform: skewY(-5deg);
+        overflow: hidden;
+      }
+
+      .field-content > * {
+        // For this to look correct the image must be set to have a width of
+        // 183px and a height of (tan(5°) + 1) * 183px = 199px.
+        transform: skewY(5deg);
+        // See above. tan(5°) / 2 * 183px = 8px
+        margin-top: -8px;
+      }
+
+      // See above.
+      padding-bottom: 8px;
+    }
+
+  }
+
+  @media (min-width: 550px) {
+
+    .block-views .view-featured-attendees {
+
+      .views-row {
+        min-width: 435px;
+      }
+
+    }
+
+  }
+
+}

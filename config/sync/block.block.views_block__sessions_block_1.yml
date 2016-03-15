@@ -1,22 +1,22 @@
-uuid: 51e8ed47-a48e-474c-a400-e0e8082c85c1
+uuid: b6672791-9077-441d-af00-eb6e80b22b13
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.speaker
+    - views.view.sessions
   module:
     - system
     - views
   theme:
     - dbcd_theme_2016
-id: views_block__speaker_block_1
+id: views_block__sessions_block_1
 theme: dbcd_theme_2016
 region: content
 weight: null
 provider: null
-plugin: 'views_block:speaker-block_1'
+plugin: 'views_block:sessions-block_1'
 settings:
-  id: 'views_block:speaker-block_1'
+  id: 'views_block:sessions-block_1'
   label: ''
   provider: views
   label_display: '0'
@@ -25,6 +25,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: /speakers
+    pages: /sessions
     negate: false
     context_mapping: {  }
