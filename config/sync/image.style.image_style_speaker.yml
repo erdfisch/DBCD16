@@ -1,0 +1,14 @@
+uuid: 9f1a5628-0173-4790-b106-6ffe9264a9ca
+langcode: de
+status: true
+dependencies: {  }
+name: image_style_speaker
+label: Speaker
+effects:
+  00074542-7cc3-4b90-ad4e-78cc2f223695:
+    uuid: 00074542-7cc3-4b90-ad4e-78cc2f223695
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 183
+      height: 244
