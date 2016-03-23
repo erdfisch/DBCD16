@@ -1,0 +1,31 @@
+uuid: 2890ae35-4db5-454c-bc34-529fa3b176b2
+langcode: de
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:050e9556-e840-4ea7-b649-73b3094a24aa'
+  module:
+    - block_content
+    - system
+  theme:
+    - dbcd_theme_2016
+id: heidelbergerfruhling
+theme: dbcd_theme_2016
+region: content
+weight: -10
+provider: null
+plugin: 'block_content:050e9556-e840-4ea7-b649-73b3094a24aa'
+settings:
+  id: 'block_content:050e9556-e840-4ea7-b649-73b3094a24aa'
+  label: 'Heidelberger Frühling'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
